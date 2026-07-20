@@ -81,10 +81,18 @@
             if (cfg.ocultar_botones.some(b => t === b || t.startsWith(b + " "))) el.style.display = "none";
         });
         document.querySelectorAll("div, section").forEach(el => {
-            const t = (el.childNodes.length && el.childNodes[0].nodeType === 3 ? el.childNodes[0].textContent : (el.innerText || "").split("\n")[0] || "").trim();
+            // Solo si el titulo es TEXTO DIRECTO del elemento (no heredado
+            // de hijos): evita matchear contenedores grandes por accidente.
+            if (!(el.childNodes.length && el.childNodes[0].nodeType === 3)) return;
+            const t = el.childNodes[0].textContent.trim();
             if (cfg.ocultar_bloques.some(b => t.startsWith(b))) {
-                let card = el; for (let i = 0; i < 3 && card.parentElement && card.parentElement.id !== "root"; i++) card = card.parentElement;
-                card.style.display = "none";
+                let card = el;
+                for (let i = 0; i < 3 && card.parentElement && card.parentElement.id !== "root"; i++) {
+                    const h = card.parentElement.getBoundingClientRect().height;
+                    if (h > window.innerHeight * 0.5) break;  // FRENO: nunca trepar a algo de media pantalla
+                    card = card.parentElement;
+                }
+                if (card.getBoundingClientRect().height <= window.innerHeight * 0.5) card.style.display = "none";
             }
         });
     }
