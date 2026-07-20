@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fecha_calibracion": "2026-06-12",
+  "fuente": "Historial/calibrar_probabilidades.py (corrida Gonzalo 2026-06-12, deciles x 3 horizontes)",
+  "datos": "SEC vivos+muertos (survivorship-free) + precios Kaggle, higiene B.7",
+  "ventana": "cohortes anuales 1996-2018, entrada 1-abril, px>=$5; ~1.070 obs por decil",
+  "definicion": "P(retorno forward > mediana de la cohorte) por decil del score B+LowVol",
+  "ui_usa": "r3",
+  "nota_ui_usa": "Regla pre-comprometida antes de correr: la UI muestra el horizonte de 3 meses (cadencia trimestral del producto). r6 y r12 son contexto, NO elegir la tabla mas linda.",
+  "p_por_decil": {
+    "r3":  {"1": 0.469, "2": 0.466, "3": 0.492, "4": 0.483, "5": 0.512, "6": 0.503, "7": 0.510, "8": 0.504, "9": 0.537, "10": 0.523},
+    "r6":  {"1": 0.425, "2": 0.450, "3": 0.467, "4": 0.512, "5": 0.518, "6": 0.526, "7": 0.507, "8": 0.531, "9": 0.530, "10": 0.534},
+    "r12": {"1": 0.441, "2": 0.434, "3": 0.501, "4": 0.481, "5": 0.521, "6": 0.541, "7": 0.510, "8": 0.518, "9": 0.532, "10": 0.521}
+  },
+  "error_estandar_pp": 1.5,
+  "lectura_obligatoria_ui": "El unico patron robusto es que los deciles 1-2 (el 20% peor del score) pierden contra la mediana mas seguido (47% a 3m, 42-45% a 6-12m). Del decil 3 para arriba es una meseta de ~50-54% donde las diferencias son ruido. El score sirve para EVITAR el fondo, no para distinguir entre los buenos. Mostrar tal cual; nunca escalar, dramatizar ni colorear mas alla de la magnitud real.",
+  "recalibracion": "Re-correr calibrar_probabilidades.py con data nueva sustancial (telemetria forward 2+ anos). Bump de version y fecha."
+}

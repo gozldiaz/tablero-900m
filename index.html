@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>900 Magníficas</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23161821'/><path d='M20 70 L40 40 L60 50 L80 20' stroke='%23fbbf24' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='80' cy='20' r='6' fill='%2360a5fa'/><circle cx='20' cy='70' r='6' fill='%2334d399'/><text x='50' y='95' font-family='sans-serif' font-size='18' font-weight='bold' fill='%23e2e8f0' text-anchor='middle'>900</text></svg>" />
+    <style>
+        :root {
+            --bg: #0a0b0f; --bg2: #161821; --bg3: #232634;
+            --text: #e2e8f0; --muted: #94a3b8;
+            --border: #2a2d3d; --border2: #3f435c;
+            --amber: #fbbf24; --blue: #60a5fa;
+            --green: #34d399; --red: #f87171;
+        }
+        body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; }
+        #status { padding: 40px; font-size: 16px; color: var(--amber); font-family: monospace; }
+        .log { font-size: 13px; color: var(--green); margin-top: 8px; }
+        .error { color: var(--red); background: var(--bg2); padding: 20px; border-radius: 8px; border: 1px solid var(--red); margin: 20px; }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div id="status">
+            <h2>⏳ INICIANDO EL SISTEMA...</h2>
+            <div id="log-container"></div>
+        </div>
+    </div>
+    
+    
+    <script src="./publico_config.js"></script>
+    <script>
+    // ================= TABLERO PUBLICO - SOLO LECTURA =================
+    // 1) Rutas absolutas -> relativas, y bloqueo de toda escritura/accion.
+    const _fetch = window.fetch.bind(window);
+    let _almacen = null;
+    async function _cargarAlmacen() {
+        if (_almacen === null) {
+            try { _almacen = await (await _fetch("./almacenamiento.json")).json(); }
+            catch (e) { _almacen = {}; }
+        }
+        return _almacen;
+    }
+    window.fetch = async function(url, opts) {
+        const u = String(url);
+        if (u.startsWith("/api/")) {
+            if (u.startsWith("/api/storage/get")) {
+                const key = decodeURIComponent(u.split("key=")[1] || "");
+                const d = await _cargarAlmacen();
+                const body = (key in d) ? JSON.stringify({ value: d[key] }) : "null";
+                return new Response(body, { status: 200 });
+            }
+            if (u.startsWith("/api/storage/list")) {
+                const pref = decodeURIComponent(u.split("prefix=")[1] || "");
+                const d = await _cargarAlmacen();
+                return new Response(JSON.stringify({ keys: Object.keys(d).filter(k => k.startsWith(pref)) }), { status: 200 });
+            }
+            if (u === "/api/listar_snapshots")
+                return new Response(JSON.stringify({ snapshots: [window.__PUBLICO__.ultimo_snapshot] }), { status: 200 });
+            if (u === "/api/estado_actualizacion")
+                return new Response("{}", { status: 200 });
+            return new Response(JSON.stringify({ success: false, error: "Tablero público de solo lectura." }), { status: 200 });
+        }
+        if (u.startsWith("/")) return _fetch("." + u, opts);
+        return _fetch(url, opts);
+    };
+    // storage de solo lectura (pisa al de abajo cuando cargue)
+    window.addEventListener("DOMContentLoaded", () => {
+        window.storage = {
+            get: async (key) => { const d = await _cargarAlmacen(); return (key in d) ? { value: d[key] } : null; },
+            set: async () => true, delete: async () => true,
+            list: async (prefix) => { const d = await _cargarAlmacen(); return { keys: Object.keys(d).filter(k => k.startsWith(prefix || "")) }; }
+        };
+    });
+    // 2) Ocultar pestanas, botones de accion y bloques de carga.
+    function _limpiar() {
+        const cfg = window.__PUBLICO__;
+        document.querySelectorAll("button, [role=tab], a, input").forEach(el => {
+            const t = (el.innerText || el.value || "").trim();
+            if (el.tagName === "INPUT") { el.style.display = "none"; return; }
+            if (cfg.ocultar_pestanas.includes(t)) el.style.display = "none";
+            if (cfg.ocultar_botones.some(b => t === b || t.startsWith(b + " "))) el.style.display = "none";
+        });
+        document.querySelectorAll("div, section").forEach(el => {
+            const t = (el.childNodes.length && el.childNodes[0].nodeType === 3 ? el.childNodes[0].textContent : (el.innerText || "").split("\n")[0] || "").trim();
+            if (cfg.ocultar_bloques.some(b => t.startsWith(b))) {
+                let card = el; for (let i = 0; i < 3 && card.parentElement && card.parentElement.id !== "root"; i++) card = card.parentElement;
+                card.style.display = "none";
+            }
+        });
+    }
+    new MutationObserver(() => _limpiar()).observe(document.documentElement, { childList: true, subtree: true });
+    // 3) Banner permanente.
+    window.addEventListener("load", () => {
+        const b = document.createElement("div");
+        b.style.cssText = "position:fixed;bottom:0;left:0;right:0;background:#161821;color:#fbbf24;border-top:1px solid #2a2d3d;padding:6px 14px;font:12px monospace;z-index:99999";
+        b.textContent = "TABLERO PÚBLICO · SOLO LECTURA · datos publicados " + window.__PUBLICO__.publicado + " · nada de esta página ejecuta operaciones ni es recomendación de inversión";
+        document.body.appendChild(b);
+    });
+    </script>
+    
+    <script>
+        function logMsg(msg) { document.getElementById('log-container').innerHTML += `<div class="log">> ${msg}</div>`; }
+        function showError(msg, err) {
+            document.getElementById('root').innerHTML = `
+                <div class="error">
+                    <h2>❌ ERROR FATAL EN LA EJECUCIÓN</h2>
+                    <p>${msg}</p>
+                    <pre style="white-space: pre-wrap; margin-top: 10px; color: #ffb3b3; font-size:12px;">${err ? (err.stack || err.toString()) : ''}</pre>
+                </div>`;
+        }
+
+        window.onerror = function(message, source, lineno, colno, error) {
+            showError("El código falló al intentar dibujar la pantalla: " + message, error);
+            return true;
+        };
+        window.addEventListener('unhandledrejection', function(event) {
+            showError("Promesa fallida en el código: " + event.reason, event.reason);
+        });
+
+        // ---------------------------------------------------------------------
+        // ALMACENAMIENTO EN DISCO DURO FÍSICO (COMPLETO)
+        // ---------------------------------------------------------------------
+        window.storage = {
+            get: async (key) => {
+                try {
+                    const res = await fetch('/api/storage/get?key=' + encodeURIComponent(key));
+                    return await res.json();
+                } catch(e) { return null; }
+            },
+            set: async (key, value) => {
+                await fetch('/api/storage/set', {
+                    method: 'POST',
+                    body: JSON.stringify({ key, value }),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                return true;
+            },
+            delete: async (key) => {
+                await fetch('/api/storage/delete', {
+                    method: 'POST',
+                    body: JSON.stringify({ key }),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                return true;
+            },
+            list: async (prefix) => {
+                try {
+                    const res = await fetch('/api/storage/list?prefix=' + encodeURIComponent(prefix));
+                    return await res.json();
+                } catch(e) { return { keys: [] }; }
+            }
+        };
+
+        logMsg("Pantalla montada. Cargando dependencias LOCALES...");
+
+        const scripts = [
+            "./react.min.js",
+            "./react-dom.min.js",
+            "./babel.min.js"
+        ];
+        
+        let loadedCount = 0;
+        scripts.forEach(src => {
+            let s = document.createElement('script');
+            s.src = src;
+            s.onload = () => {
+                loadedCount++;
+                logMsg("OK: " + src.split('/').pop());
+                if(loadedCount === scripts.length) {
+                    logMsg("Dependencias listas. Buscando tu archivo 900_magnificas_local.jsx...");
+                    loadApp();
+                }
+            };
+            s.onerror = () => showError("Fallo la carga de: " + src);
+            document.head.appendChild(s);
+        });
+
+        function loadApp() {
+            fetch('./900_magnificas_local.jsx')
+                .then(response => {
+                    if (!response.ok) throw new Error("HTTP " + response.status);
+                    return response.text();
+                })
+                .then(jsxCode => {
+                    logMsg("Archivo local leído correctamente (" + Math.round(jsxCode.length / 1024) + " KB). Iniciando Babel para traducirlo...");
+                    
+                    setTimeout(() => {
+                        try {
+                            let code = jsxCode.replace(/import\s+{([^}]+)}\s+from\s+["']react["'];?/g, (match, p1) => {
+                                return `const { ${p1} } = window.React;`;
+                            });
+                            code = code.replace(/import\s+{([^}]+)}\s+from\s+["']lucide-react["'];?/g, (match, p1) => {
+                                return `const { ${p1} } = window.lucide || {};`;
+                            });
+                            code = code.replace(/export\s+default\s+function\s+App/g, 'function App');
+                            
+                            code += '\n\nwindow.ReactDOM.render(window.React.createElement(App), document.getElementById("root"));';
+
+                            const compiled = window.Babel.transform(code, { presets: ['env', 'react'] }).code;
+                            logMsg("Traducción completada. Montando aplicación...");
+                            eval(compiled);
+                        } catch (err) {
+                            showError("Babel no pudo traducir el código (posible error de sintaxis en el JSX).", err);
+                        }
+                    }, 500);
+                })
+                .catch(err => showError("No se pudo acceder al archivo local 900_magnificas_local.jsx.", err));
+        }
+    </script>
+</body>
+</html>
