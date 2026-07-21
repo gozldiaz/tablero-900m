@@ -111,7 +111,7 @@
     </script>
     
     <script>
-        function logMsg(msg) { document.getElementById('log-container').innerHTML += `<div class="log">> ${msg}</div>`; }
+        function logMsg(msg) { const c = document.getElementById('log-container'); if (c) c.innerHTML += `<div class="log">> ${msg}</div>`; }
         function showError(msg, err) {
             document.getElementById('root').innerHTML = `
                 <div class="error">
