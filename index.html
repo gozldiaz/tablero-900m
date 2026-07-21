@@ -118,8 +118,11 @@
         const iv = setInterval(() => {
             const raiz = document.getElementById("root");
             const txt = (raiz && raiz.innerText) || "";
-            const listo = txt.includes("DASHBOARD") && !txt.includes("Sin datos");
-            if (listo || Date.now() - t0 > 60000) { clearInterval(iv); try { _limpiar(); } catch (e) {} c.remove(); }
+            // Red de contención nada más: la cortina la levanta el propio
+            // montaje de la app (ver MONTAJE). Esto sólo la saca si la app
+            // nunca llegó a montarse, para no dejar la pantalla tapada.
+            const listo = txt.includes("DASHBOARD") && txt.length > 1500;
+            if (listo || Date.now() - t0 > 45000) { clearInterval(iv); try { _limpiar(); } catch (e) {} c.remove(); }
         }, 400);
     });
     // 4) Banner permanente.
@@ -184,61 +187,16 @@
             }
         };
 
-        logMsg("Pantalla montada. Cargando dependencias LOCALES...");
-
-        const scripts = [
-            "./react.min.js",
-            "./react-dom.min.js",
-            "./babel.min.js"
-        ];
-        
-        let loadedCount = 0;
-        scripts.forEach(src => {
-            let s = document.createElement('script');
-            s.src = src;
-            s.onload = () => {
-                loadedCount++;
-                logMsg("OK: " + src.split('/').pop());
-                if(loadedCount === scripts.length) {
-                    logMsg("Dependencias listas. Buscando tu archivo 900_magnificas_local.jsx...");
-                    loadApp();
-                }
-            };
-            s.onerror = () => showError("Fallo la carga de: " + src);
+        logMsg("Cargando el tablero (ya viene traducido)...");
+        const scripts = ["./react.min.js", "./react-dom.min.js", "./app_compilada.js"];
+        (function cargar(n) {
+            if (n >= scripts.length) return;
+            const s = document.createElement('script');
+            s.src = scripts[n];
+            s.onload = () => { logMsg("OK: " + scripts[n].split('/').pop()); cargar(n + 1); };
+            s.onerror = () => showError("Fallo la carga de: " + scripts[n]);
             document.head.appendChild(s);
-        });
-
-        function loadApp() {
-            fetch('./900_magnificas_local.jsx')
-                .then(response => {
-                    if (!response.ok) throw new Error("HTTP " + response.status);
-                    return response.text();
-                })
-                .then(jsxCode => {
-                    logMsg("Archivo local leído correctamente (" + Math.round(jsxCode.length / 1024) + " KB). Iniciando Babel para traducirlo...");
-                    
-                    setTimeout(() => {
-                        try {
-                            let code = jsxCode.replace(/import\s+{([^}]+)}\s+from\s+["']react["'];?/g, (match, p1) => {
-                                return `const { ${p1} } = window.React;`;
-                            });
-                            code = code.replace(/import\s+{([^}]+)}\s+from\s+["']lucide-react["'];?/g, (match, p1) => {
-                                return `const { ${p1} } = window.lucide || {};`;
-                            });
-                            code = code.replace(/export\s+default\s+function\s+App/g, 'function App');
-                            
-                            code += ' ; class __EB extends window.React.Component { constructor(p){ super(p); this.state={err:null}; } componentDidCatch(e,i){ this.setState({err: String(e && (e.stack||e.message||e)) + " | " + String((i&&i.componentStack)||"") }); } render(){ if(this.state.err){ return window.React.createElement("pre",{style:{color:"#f87171",background:"#161821",padding:"24px",whiteSpace:"pre-wrap",fontSize:"12px",fontFamily:"monospace"}},"ERROR EN ESTA PESTANA (captura y mandasela a Claude): " + this.state.err); } return this.props.children; } } window.ReactDOM.render(window.React.createElement(__EB,null,window.React.createElement(App)), document.getElementById("root"));';
-
-                            const compiled = window.Babel.transform(code, { presets: ['env', 'react'] }).code;
-                            logMsg("Traducción completada. Montando aplicación...");
-                            eval(compiled);
-                        } catch (err) {
-                            showError("Babel no pudo traducir el código (posible error de sintaxis en el JSX).", err);
-                        }
-                    }, 500);
-                })
-                .catch(err => showError("No se pudo acceder al archivo local 900_magnificas_local.jsx.", err));
-        }
+        })(0);
     </script>
 </body>
 </html>
