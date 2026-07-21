@@ -2731,7 +2731,7 @@ function TablaBonos({ titulo, subtitulo, items, tirLeyenda, tirEsGanaInflacion, 
 }
 
 export default function App() {
-  const [tab, setTab] = useState("dashboard");
+  const [tab, _setTabPub] = useState("dashboard"); const _VETADAS = ["upload","cartera","chat"]; const setTab = (v) => _setTabPub(_VETADAS.includes(v) ? "dashboard" : v);
   const [snapshots, setSnapshots] = useState({});
   const [selDate, setSelDate] = useState(null);
   const [cmpDate, setCmpDate] = useState(null);
@@ -3199,7 +3199,7 @@ export default function App() {
       // Si despues de cargar no hay snapshots ni cartera, mostrar modal de restauracion
       setSnapshots(prev => {
         if (Object.keys(prev).length === 0) {
-          setTimeout(() => setShowRestoreModal(true), 800);
+          /* modal de restauración desactivado en el tablero público */;
         }
         return prev;
       });
@@ -6473,7 +6473,7 @@ export default function App() {
   const hmSectors={};
   for (const t of tickers) { const s=getSector(t.symbol); if(!hmSectors[s]) hmSectors[s]=[]; hmSectors[s].push(t); }
 
-  const TABS=[["dashboard","DASHBOARD"],["radar","RADAR"],["alertas","ALERTAS"+(alerts.length>0?" ("+alerts.length+")":"")],["heatmap","HEATMAP"],["estructura","ESTRUCTURA"],["valuacion","BARATO/CARO"],["cartera","CARTERA"],["comparar","COMPARAR"],["chat","ANALISTA IA"],["mercadoarg","MERCADO ARGENTINO"],["primacedear","PRIMA CEDEAR"],["operar","OPERAR"],["upload","CARGAR"]];
+  const TABS=[["dashboard","DASHBOARD"],["radar","RADAR"],["alertas","ALERTAS"+(alerts.length>0?" ("+alerts.length+")":"")],["heatmap","HEATMAP"],["estructura","ESTRUCTURA"],["valuacion","BARATO/CARO"],["comparar","COMPARAR"],["mercadoarg","MERCADO ARGENTINO"],["primacedear","PRIMA CEDEAR"],["operar","OPERAR"]];
   const SUGS=["Dame un resumen ejecutivo del mercado hoy","Que sector domina el movimiento de hoy?","Cuales tienen el forward P/E mas barato con EPS positivo?","Analiza OXY, PAAS, GLD y PG con los datos actuales","Hay senales de rotacion sectorial en los ultimos dias?","Detecta posibles ciclos de acumulacion o distribucion"];
 
   return (
@@ -6517,7 +6517,7 @@ export default function App() {
               <div style={{textAlign:"center",padding:"80px 20px",color:"var(--muted)"}}>
                 <div style={{fontSize:"32px",marginBottom:"12px",opacity:0.4}}>◎</div>
                 <div style={{fontSize:"14px",marginBottom:"8px"}}>Sin datos</div>
-                <div style={{fontSize:"11px",opacity:0.6}}>Carga el primer snapshot desde <span style={{color:"var(--amber)",cursor:"pointer"}} onClick={()=>setTab("upload")}>CARGAR</span></div>
+                <div style={{fontSize:"11px",opacity:0.6}}>Carga el primer snapshot desde <span style={{color:"var(--amber)",cursor:"pointer"}} onClick={()=>setTab("dashboard")}>CARGAR</span></div>
               </div>
             ) : (
               <div>
@@ -8257,7 +8257,7 @@ export default function App() {
         {/* CHAT */}
         {tab==="chat" && (
           <div style={{display:"flex",flexDirection:"column",height:"calc(100vh - 140px)"}}>
-            {dates.length===0?<div style={{textAlign:"center",padding:"60px",color:"var(--muted)"}}>Carga datos desde <span style={{color:"var(--amber)",cursor:"pointer"}} onClick={()=>setTab("upload")}>CARGAR</span></div>:(
+            {dates.length===0?<div style={{textAlign:"center",padding:"60px",color:"var(--muted)"}}>Carga datos desde <span style={{color:"var(--amber)",cursor:"pointer"}} onClick={()=>setTab("dashboard")}>CARGAR</span></div>:(
               <div style={{display:"flex",flexDirection:"column",height:"100%"}}>
                 <div style={{flex:1,overflowY:"auto",display:"flex",flexDirection:"column",gap:"10px",marginBottom:"10px"}}>
                   {chatMsgs.length===0&&(
@@ -9944,7 +9944,7 @@ export default function App() {
               No hay snapshots ni datos en memoria. Si tenes un backup guardado, importalo ahora para restaurar el sistema.
             </div>
             <div style={{display:"flex",gap:"10px",flexDirection:"column"}}>
-              <button onClick={()=>{setShowRestoreModal(false);setTab("upload");}} style={{background:"var(--amber)",color:"#0a0b0f",border:"none",borderRadius:"4px",padding:"10px",fontSize:"11px",fontWeight:700,fontFamily:"inherit",cursor:"pointer",letterSpacing:"0.06em"}}>
+              <button onClick={()=>{setShowRestoreModal(false);setTab("dashboard");}} style={{background:"var(--amber)",color:"#0a0b0f",border:"none",borderRadius:"4px",padding:"10px",fontSize:"11px",fontWeight:700,fontFamily:"inherit",cursor:"pointer",letterSpacing:"0.06em"}}>
                 IR A CARGAR -> IMPORTAR BACKUP
               </button>
               <button onClick={()=>setShowRestoreModal(false)} style={{background:"none",border:"1px solid var(--border2)",color:"var(--muted)",borderRadius:"4px",padding:"8px",fontSize:"11px",fontFamily:"inherit",cursor:"pointer"}}>

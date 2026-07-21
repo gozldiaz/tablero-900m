@@ -33,12 +33,16 @@
     // 1) Rutas absolutas -> relativas, y bloqueo de toda escritura/accion.
     const _fetch = window.fetch.bind(window);
     let _almacen = null;
+    // Un tropiezo de red NO puede dejar la sesión vacía para siempre: si
+    // falla, se reintenta (en celular con señal floja esto era lo que
+    // dejaba la app en "Sin datos" y disparaba el modal de restauración).
     async function _cargarAlmacen() {
-        if (_almacen === null) {
-            try { _almacen = await (await _fetch("./almacenamiento.json")).json(); }
-            catch (e) { _almacen = {}; }
+        if (_almacen !== null) return _almacen;
+        for (let i = 0; i < 4; i++) {
+            try { _almacen = await (await _fetch("./almacenamiento.json")).json(); return _almacen; }
+            catch (e) { await new Promise(r => setTimeout(r, 600 * (i + 1))); }
         }
-        return _almacen;
+        return {};   // NO se cachea: el próximo pedido vuelve a intentar
     }
     window.fetch = async function(url, opts) {
         const u = String(url);
@@ -101,7 +105,24 @@
         if (_limpiarPendiente) return;
         _limpiarPendiente = setTimeout(() => { _limpiarPendiente = null; try { _limpiar(); } catch (e) {} }, 300);
     }).observe(document.documentElement, { childList: true, subtree: true });
-    // 3) Banner permanente.
+    // 3) Cortina de carga: el visitante no toca la app a medio dibujar.
+    //    En celular la compilación del JSX tarda decenas de segundos y en
+    //    ese lapso se veía el estado "Sin datos" con todas las pestañas.
+    window.addEventListener("DOMContentLoaded", () => {
+        const c = document.createElement("div");
+        c.id = "__cortina";
+        c.style.cssText = "position:fixed;inset:0;background:#0a0b0f;color:#fbbf24;display:flex;align-items:center;justify-content:center;text-align:center;font:13px monospace;z-index:100000;padding:24px";
+        c.textContent = "900 MAGNÍFICAS · preparando el tablero, puede demorar en celular…";
+        document.body.appendChild(c);
+        const t0 = Date.now();
+        const iv = setInterval(() => {
+            const raiz = document.getElementById("root");
+            const txt = (raiz && raiz.innerText) || "";
+            const listo = txt.includes("DASHBOARD") && !txt.includes("Sin datos");
+            if (listo || Date.now() - t0 > 60000) { clearInterval(iv); try { _limpiar(); } catch (e) {} c.remove(); }
+        }, 400);
+    });
+    // 4) Banner permanente.
     window.addEventListener("load", () => {
         const b = document.createElement("div");
         b.style.cssText = "position:fixed;bottom:0;left:0;right:0;background:#161821;color:#fbbf24;border-top:1px solid #2a2d3d;padding:6px 14px;font:12px monospace;z-index:99999";
