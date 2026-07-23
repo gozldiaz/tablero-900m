@@ -27,7 +27,8 @@
     </div>
     
     
-    <script src="./publico_config.js"></script>
+    <script>window.__V__ = "20260723200041";</script>
+    <script src="./publico_config.js?v=20260723200041"></script>
     <script>
     // ================= TABLERO PUBLICO - SOLO LECTURA =================
     // 1) Rutas absolutas -> relativas, y bloqueo de toda escritura/accion.
@@ -39,7 +40,7 @@
     async function _cargarAlmacen() {
         if (_almacen !== null) return _almacen;
         for (let i = 0; i < 4; i++) {
-            try { _almacen = await (await _fetch("./almacenamiento.json")).json(); return _almacen; }
+            try { _almacen = await (await _fetch("./almacenamiento.json?v=" + (window.__V__ || ""))).json(); return _almacen; }
             catch (e) { await new Promise(r => setTimeout(r, 600 * (i + 1))); }
         }
         return {};   // NO se cachea: el próximo pedido vuelve a intentar
@@ -64,7 +65,7 @@
                 return new Response("{}", { status: 200 });
             return new Response(JSON.stringify({ success: false, error: "Tablero público de solo lectura." }), { status: 200 });
         }
-        if (u.startsWith("/")) return _fetch("." + u, opts);
+        if (u.startsWith("/")) return _fetch("." + u + (u.indexOf("?") < 0 ? "?" : "&") + "v=" + (window.__V__ || ""), opts);
         return _fetch(url, opts);
     };
     // storage de solo lectura (pisa al de abajo cuando cargue)
@@ -188,7 +189,7 @@
         };
 
         logMsg("Cargando el tablero (ya viene traducido)...");
-        const scripts = ["./react.min.js", "./react-dom.min.js", "./app_compilada.js"];
+        const scripts = ["./react.min.js", "./react-dom.min.js", "./app_compilada.js?v=" + (window.__V__ || "")];
         (function cargar(n) {
             if (n >= scripts.length) return;
             const s = document.createElement('script');
