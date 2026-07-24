@@ -788,7 +788,14 @@ var MOTOR_CALIDAD_TABLA_N=[[100,4],[300,6],[500,8],[2000,10],[10000,12],[20000,1
 // con capital real. Mismo criterio que ya usan motorCalidadBandaTolerancia
 // (línea ~5247) y la tabla de TU CARTERA (línea ~9964): solo un number
 // cuenta como capital configurado.
-var motorCalidadCapital=typeof(operarEstadoCartera===null||operarEstadoCartera===void 0?void 0:operarEstadoCartera.capital_referencia)==="number"?operarEstadoCartera.capital_referencia:null;var MOTOR_CALIDAD_N_SIN_CAPITAL=12;// banda 8-12 de la REGLA CONGELADA; solo para listar nombres cuando no hay capital (tablero público)
+// Capital de referencia por defecto (Gonzalo, 23/07/2026): cuando no hay un
+// capital real numerico (tablero publico con "SIN CONFIGURAR", o el motor
+// sin usar todavia), el Motor de Calidad usa USD 1000 como placeholder para
+// mostrar montos ilustrativos - no expone el capital real, pero da una cifra
+// en vez de "sin montos". motorCalidadBandaTolerancia sigue exigiendo el
+// capital real (compara contra posiciones YA operadas, ahi un placeholder
+// mentiria), asi que no usa este default.
+var MOTOR_CALIDAD_CAPITAL_DEFAULT=1000;var motorCalidadCapital=typeof(operarEstadoCartera===null||operarEstadoCartera===void 0?void 0:operarEstadoCartera.capital_referencia)==="number"?operarEstadoCartera.capital_referencia:MOTOR_CALIDAD_CAPITAL_DEFAULT;var MOTOR_CALIDAD_N_SIN_CAPITAL=12;// banda 8-12 de la REGLA CONGELADA; solo para listar nombres cuando no hay capital (tablero público) - inalcanzable ahora que hay default, se deja como red de contención
 // -- MOTOR DE CALIDAD: vol_60d por ticker, reutilizando cuchilloFilas (ya
 // se carga fresco de disco al entrar a OPERAR) - no agrega un fetch nuevo.
 var motorCalidadVolPorTicker=useMemo(function(){return Object.fromEntries(cuchilloFilas.map(function(f){return[f.ticker,f.vol_60d];}));},[cuchilloFilas]);var motorCalidadSizing=useMemo(function(){var capital=motorCalidadCapital;var nElegibles=motorCalidadElegibles.length;if(!nElegibles)return{n:null,motivo:"sin elegibles todavía"};// Fail-safe (Gonzalo, 23/07/2026): el tablero público sanea capital_referencia
