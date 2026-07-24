@@ -1,0 +1,836 @@
+{
+    "fuente": "Yahoo Finance (Bolsas) + Wikipedia (SPY/QQQ/DIA) + Tabla Manual (Locales)",
+    "fecha_extraccion": "2026-06-17",
+    "membresia": {
+        "AAPL": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "MSFT": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "GOOGL": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "META": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "AMZN": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "ADBE": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "CRM": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "ACN": [
+            "SPY",
+            "^NYA"
+        ],
+        "SAP": [
+            "^GDAXI",
+            "^NYA"
+        ],
+        "ORCL": [
+            "SPY",
+            "^NYA"
+        ],
+        "IBM": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "CSCO": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "GRMN": [
+            "SPY",
+            "^NYA"
+        ],
+        "MSI": [
+            "SPY",
+            "^NYA"
+        ],
+        "EA": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "HPQ": [
+            "SPY",
+            "^NYA"
+        ],
+        "BIDU": [
+            "^HSI",
+            "^IXIC"
+        ],
+        "BABA": [
+            "^HSI",
+            "^NYA"
+        ],
+        "PDD": [],
+        "SATL": [
+            "^IXIC"
+        ],
+        "ANET": [
+            "SPY",
+            "^NYA"
+        ],
+        "NVDA": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "AMD": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "TSM": [
+            "^TWII",
+            "^NYA"
+        ],
+        "AVGO": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "ASML": [
+            "QQQ",
+            "^AEX",
+            "^IXIC"
+        ],
+        "MU": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "INTC": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "AMAT": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "TXN": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "MRVL": [
+            "QQQ",
+            "^IXIC"
+        ],
+        "ARM": [
+            "QQQ",
+            "^IXIC"
+        ],
+        "QCOM": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "LRCX": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "ADI": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "SMH": [],
+        "SNDK": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "PLTR": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "SNOW": [
+            "^NYA"
+        ],
+        "CRWD": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "PANW": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "SHOP": [
+            "QQQ",
+            "^IXIC"
+        ],
+        "ZM": [
+            "^IXIC"
+        ],
+        "DOCU": [
+            "^IXIC"
+        ],
+        "PATH": [
+            "^NYA"
+        ],
+        "SPOT": [
+            "^NYA"
+        ],
+        "NFLX": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "SNAP": [
+            "^NYA"
+        ],
+        "PINS": [
+            "^NYA"
+        ],
+        "SE": [
+            "^NYA"
+        ],
+        "NOW": [
+            "SPY",
+            "^NYA"
+        ],
+        "TEM": [
+            "^IXIC"
+        ],
+        "GLOB": [
+            "^NYA"
+        ],
+        "NBIS": [
+            "^IXIC"
+        ],
+        "VZ": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "T": [
+            "SPY",
+            "^NYA"
+        ],
+        "AMX": [
+            "^MXX",
+            "^NYA"
+        ],
+        "TMUS": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "PG": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "KO": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "PEP": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "MO": [
+            "SPY",
+            "^NYA"
+        ],
+        "WMT": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "TGT": [
+            "SPY",
+            "^NYA"
+        ],
+        "MDLZ": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "HSY": [
+            "SPY",
+            "^NYA"
+        ],
+        "UL": [
+            "^NYA",
+            "^FTSE",
+            "^AEX"
+        ],
+        "CL": [
+            "SPY",
+            "^NYA"
+        ],
+        "COST": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "KMB": [
+            "SPY",
+            "^NYA"
+        ],
+        "PM": [
+            "SPY",
+            "^NYA"
+        ],
+        "ABEV": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "MCD": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "SBUX": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "NKE": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "ANF": [
+            "^NYA"
+        ],
+        "EBAY": [
+            "SPY",
+            "^IXIC"
+        ],
+        "URBN": [
+            "^IXIC"
+        ],
+        "ORLY": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "ETSY": [
+            "^NYA"
+        ],
+        "TM": [
+            "^N225",
+            "^NYA"
+        ],
+        "HMC": [
+            "^N225",
+            "^NYA"
+        ],
+        "NSANY": [
+            "^N225"
+        ],
+        "GM": [
+            "SPY",
+            "^NYA"
+        ],
+        "ARCO": [
+            "^NYA"
+        ],
+        "HD": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "RACE": [
+            "FTSEMIB.MI",
+            "^NYA"
+        ],
+        "TSLA": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "UBER": [
+            "SPY",
+            "^NYA"
+        ],
+        "RBLX": [
+            "^NYA"
+        ],
+        "TRIP": [
+            "^IXIC"
+        ],
+        "ABNB": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "NIO": [
+            "^HSI",
+            "^NYA"
+        ],
+        "MELI": [
+            "QQQ",
+            "^IXIC"
+        ],
+        "TCOM": [
+            "^HSI",
+            "^IXIC"
+        ],
+        "DIS": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "JMIA": [
+            "^NYA"
+        ],
+        "JNJ": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "LLY": [
+            "SPY",
+            "^NYA"
+        ],
+        "NVO": [
+            "^OMXC25",
+            "^NYA"
+        ],
+        "AMGN": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "UNH": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "PFE": [
+            "SPY",
+            "^NYA"
+        ],
+        "ABT": [
+            "SPY",
+            "^NYA"
+        ],
+        "CVS": [
+            "SPY",
+            "^NYA"
+        ],
+        "ABBV": [
+            "SPY",
+            "^NYA"
+        ],
+        "TMO": [
+            "SPY",
+            "^NYA"
+        ],
+        "AZN": [
+            "^FTSE",
+            "^NYA"
+        ],
+        "CAH": [
+            "SPY",
+            "^NYA"
+        ],
+        "ISRG": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "MRNA": [
+            "SPY",
+            "^IXIC"
+        ],
+        "NVS": [
+            "^SSMI",
+            "^NYA"
+        ],
+        "PHG": [
+            "^AEX",
+            "^NYA"
+        ],
+        "MRK": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "GILD": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "BMY": [
+            "SPY",
+            "^NYA"
+        ],
+        "HIMS": [
+            "^NYA"
+        ],
+        "LMT": [
+            "SPY",
+            "^NYA"
+        ],
+        "RTX": [
+            "SPY",
+            "^NYA"
+        ],
+        "BA": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "HON": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "^IXIC"
+        ],
+        "ITA": [],
+        "RKLB": [
+            "^IXIC"
+        ],
+        "ONDS": [
+            "^IXIC"
+        ],
+        "CAT": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "GE": [
+            "SPY",
+            "^NYA"
+        ],
+        "UAL": [
+            "SPY",
+            "^IXIC"
+        ],
+        "F": [
+            "SPY",
+            "^NYA"
+        ],
+        "AAL": [
+            "^IXIC"
+        ],
+        "UNP": [
+            "SPY",
+            "^NYA"
+        ],
+        "FDX": [
+            "SPY",
+            "^NYA"
+        ],
+        "PCAR": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "MMM": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "PAC": [
+            "^NYA"
+        ],
+        "GT": [
+            "^IXIC"
+        ],
+        "DOW": [
+            "SPY",
+            "^NYA"
+        ],
+        "PBI": [
+            "^NYA"
+        ],
+        "OXY": [
+            "SPY",
+            "^NYA"
+        ],
+        "XOM": [
+            "SPY",
+            "^NYA"
+        ],
+        "CVX": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "PSX": [
+            "SPY",
+            "^NYA"
+        ],
+        "YPF": [
+            "^MERV",
+            "^NYA"
+        ],
+        "VIST": [
+            "^MXX",
+            "^NYA"
+        ],
+        "VST": [
+            "SPY",
+            "^NYA"
+        ],
+        "PBR": [
+            "^NYA"
+        ],
+        "OKLO": [
+            "^NYA"
+        ],
+        "BP": [
+            "^FTSE",
+            "^NYA"
+        ],
+        "E": [
+            "FTSEMIB.MI",
+            "^NYA"
+        ],
+        "SHEL": [
+            "^FTSE",
+            "^NYA"
+        ],
+        "HAL": [
+            "SPY",
+            "^NYA"
+        ],
+        "SLB": [
+            "SPY",
+            "^NYA"
+        ],
+        "COP": [
+            "SPY",
+            "^NYA"
+        ],
+        "GPRK": [
+            "^NYA"
+        ],
+        "CEG": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "FSLR": [
+            "SPY",
+            "^IXIC"
+        ],
+        "NEE": [
+            "SPY",
+            "^NYA"
+        ],
+        "PAAS": [
+            "^NYA"
+        ],
+        "GLD": [],
+        "SLV": [],
+        "HMY": [
+            "^NYA"
+        ],
+        "COPX": [],
+        "URA": [],
+        "VALE": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "LAC": [
+            "^NYA"
+        ],
+        "RIO": [
+            "^FTSE",
+            "^AXJO",
+            "^NYA"
+        ],
+        "GFI": [
+            "^NYA"
+        ],
+        "GGB": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "FCX": [
+            "SPY",
+            "^NYA"
+        ],
+        "HL": [
+            "^NYA"
+        ],
+        "NEM": [
+            "SPY",
+            "^NYA"
+        ],
+        "NXE": [
+            "^GSPTSE",
+            "^NYA"
+        ],
+        "GOLD": [
+            "^GSPTSE",
+            "^NYA"
+        ],
+        "MUX": [
+            "^NYA"
+        ],
+        "CCJ": [
+            "^GSPTSE",
+            "^NYA"
+        ],
+        "BHP": [
+            "^FTSE",
+            "^AXJO",
+            "^NYA"
+        ],
+        "MP": [
+            "^NYA"
+        ],
+        "JPM": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "AXP": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "MA": [
+            "SPY",
+            "^NYA"
+        ],
+        "V": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "PYPL": [
+            "SPY",
+            "QQQ",
+            "^IXIC"
+        ],
+        "AIG": [
+            "SPY",
+            "^NYA"
+        ],
+        "BRK-B": [
+            "SPY",
+            "^NYA"
+        ],
+        "AEG": [
+            "^AEX",
+            "^NYA"
+        ],
+        "WFC": [
+            "SPY",
+            "^NYA"
+        ],
+        "BK": [
+            "^NYA"
+        ],
+        "BCS": [
+            "^FTSE",
+            "^NYA"
+        ],
+        "HSBC": [
+            "^NYA",
+            "^FTSE",
+            "^HSI"
+        ],
+        "LYG": [
+            "^FTSE",
+            "^NYA"
+        ],
+        "ING": [
+            "^AEX",
+            "^NYA"
+        ],
+        "GS": [
+            "SPY",
+            "DIA",
+            "^NYA"
+        ],
+        "BX": [
+            "SPY",
+            "^NYA"
+        ],
+        "BAC": [
+            "SPY",
+            "^NYA"
+        ],
+        "MUFG": [
+            "^N225",
+            "^NYA"
+        ],
+        "SAN": [
+            "^IBEX",
+            "^NYA"
+        ],
+        "GGAL": [
+            "^MERV",
+            "^IXIC"
+        ],
+        "ITUB": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "BBD": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "BBAR": [
+            "^MERV",
+            "^NYA"
+        ],
+        "IBN": [
+            "^NYA"
+        ],
+        "NU": [
+            "^NYA"
+        ],
+        "XP": [
+            "^BVSP",
+            "^IXIC"
+        ],
+        "PAGS": [
+            "^BVSP",
+            "^NYA"
+        ],
+        "C": [
+            "SPY",
+            "^NYA"
+        ],
+        "SCHW": [
+            "SPY",
+            "^NYA"
+        ]
+    }
+}
