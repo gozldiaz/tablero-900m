@@ -1,0 +1,16 @@
+{
+ "umbral": 60,
+ "seleccion": [
+  "UL"
+ ],
+ "w_lowvol": 0.2,
+ "w_calidad": 0.8,
+ "w_momentum": 0.0,
+ "mom_meses": 12,
+ "filtro_indice": "SPY",
+ "vol_ventana": 120,
+ "modo_dos_carteras": false,
+ "rebalanceo_meses": 1,
+ "usar_valuacion": true,
+ "n_histeresis": 26
+}
