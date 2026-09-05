@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-09-04 19:06",
-  "mep_al30": 1524.03,
+  "fecha": "2026-09-04 20:35",
+  "mep_al30": 1525.39,
   "soberanos_usd": [
     {
       "ticker": "AL29D",
-      "precio": 54.47,
+      "precio": 54.4,
       "moneda": "USD",
-      "tir_pct": 7.58,
+      "tir_pct": 7.67,
       "duracion_mod": 1.48,
       "paridad": 0.9,
       "vencimiento": "09/07/2029",
@@ -65,8 +65,8 @@
         }
       ],
       "dias_al_vencimiento": 1038,
-      "rendimiento_periodo_neto_pct": 10.4,
-      "tir_neta_aprox_pct": 3.54,
+      "rendimiento_periodo_neto_pct": 10.54,
+      "tir_neta_aprox_pct": 3.59,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.5,
       "riesgo_etiqueta": "bajo"
@@ -889,10 +889,10 @@
     },
     {
       "ticker": "GD41D",
-      "precio": 74.57,
+      "precio": 74.68,
       "moneda": "USD",
-      "tir_pct": 9.4,
-      "duracion_mod": 5.75,
+      "tir_pct": 9.37,
+      "duracion_mod": 5.76,
       "paridad": 0.7,
       "vencimiento": "09/07/2041",
       "fecha_precio": "2026-09-04T17:00",
@@ -998,8 +998,8 @@
         }
       ],
       "dias_al_vencimiento": 5421,
-      "rendimiento_periodo_neto_pct": 80.06,
-      "tir_neta_aprox_pct": 4.04,
+      "rendimiento_periodo_neto_pct": 79.8,
+      "tir_neta_aprox_pct": 4.03,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 7.8,
       "riesgo_etiqueta": "alto"
@@ -1741,7 +1741,7 @@
       "precio": 1727.0,
       "vencimiento_aprox": "2027-04-30",
       "dias": 238,
-      "deval_anual_implicita_pct": 21.1,
+      "deval_anual_implicita_pct": 21.0,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1749,7 +1749,7 @@
       "precio": 1608.5,
       "vencimiento_aprox": "2026-12-31",
       "dias": 118,
-      "deval_anual_implicita_pct": 18.2,
+      "deval_anual_implicita_pct": 17.8,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1757,7 +1757,7 @@
       "precio": 1637.5,
       "vencimiento_aprox": "2027-01-31",
       "dias": 149,
-      "deval_anual_implicita_pct": 19.2,
+      "deval_anual_implicita_pct": 19.0,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1765,7 +1765,7 @@
       "precio": 1665.0,
       "vencimiento_aprox": "2027-02-28",
       "dias": 177,
-      "deval_anual_implicita_pct": 20.0,
+      "deval_anual_implicita_pct": 19.8,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1773,7 +1773,7 @@
       "precio": 1791.0,
       "vencimiento_aprox": "2027-06-30",
       "dias": 299,
-      "deval_anual_implicita_pct": 21.8,
+      "deval_anual_implicita_pct": 21.6,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1781,7 +1781,7 @@
       "precio": 1698.0,
       "vencimiento_aprox": "2027-03-31",
       "dias": 208,
-      "deval_anual_implicita_pct": 20.9,
+      "deval_anual_implicita_pct": 20.7,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1789,7 +1789,7 @@
       "precio": 1756.0,
       "vencimiento_aprox": "2027-05-31",
       "dias": 269,
-      "deval_anual_implicita_pct": 21.2,
+      "deval_anual_implicita_pct": 21.0,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1797,7 +1797,7 @@
       "precio": 1580.5,
       "vencimiento_aprox": "2026-11-30",
       "dias": 87,
-      "deval_anual_implicita_pct": 16.5,
+      "deval_anual_implicita_pct": 16.1,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1805,7 +1805,7 @@
       "precio": 1553.5,
       "vencimiento_aprox": "2026-10-31",
       "dias": 57,
-      "deval_anual_implicita_pct": 13.0,
+      "deval_anual_implicita_pct": 12.4,
       "fecha_dato": "2026-09-04"
     },
     {
@@ -1813,7 +1813,7 @@
       "precio": 1528.0,
       "vencimiento_aprox": "2026-09-30",
       "dias": 26,
-      "deval_anual_implicita_pct": 3.7,
+      "deval_anual_implicita_pct": 2.4,
       "fecha_dato": "2026-09-04"
     }
   ],
@@ -2980,10 +2980,10 @@
     },
     {
       "ticker": "TLCPD",
-      "precio": 114.45,
+      "precio": 114.15,
       "moneda": "USD",
-      "tir_pct": 6.97,
-      "duracion_mod": 4.69,
+      "tir_pct": 7.03,
+      "duracion_mod": 4.68,
       "paridad": 1.1,
       "vencimiento": "28/05/2033",
       "fecha_precio": "2026-09-04T17:00",
@@ -3089,8 +3089,8 @@
         }
       ],
       "dias_al_vencimiento": 2457,
-      "rendimiento_periodo_neto_pct": 37.81,
-      "tir_neta_aprox_pct": 4.88,
+      "rendimiento_periodo_neto_pct": 38.17,
+      "tir_neta_aprox_pct": 4.92,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON TELECOM ARGENTINA SA REGS 9.25% V. 28/05/33",
       "riesgo_puntos": 5.7,
