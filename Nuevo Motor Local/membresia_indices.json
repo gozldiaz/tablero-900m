@@ -1896,8 +1896,15 @@
   ],
   "ZTS": [
    "SPY"
+  ],
+  "COIN": [
+   "SPY"
+  ],
+  "MOS": [
+   "SPY"
   ]
  },
  "nota_08092026": "Se agregaron 36 CEDEARs de BYMA que faltaban. La membresia del S&P se verifico contra la matriz SP del panel de pruebas al 2026-08-07, que es la misma fuente que usa el backtest. Solo se marco SPY: la pertenencia a Dow y Nasdaq-100 no se verifico y el motor no la usa (filtro_indice = SPY).",
- "nota_09092026": "Se agregaron 318 miembros del S&P que faltaban, para que el motor rankee sobre el indice completo (467) y no sobre los 147 que estaban en el snapshot. No son CEDEARs: entran al ranking, no a la operatoria."
+ "nota_09092026": "Se agregaron 318 miembros del S&P que faltaban, para que el motor rankee sobre el indice completo (467) y no sobre los 147 que estaban en el snapshot. No son CEDEARs: entran al ranking, no a la operatoria.",
+ "nota_09092026b": "Se marcaron COIN y MOS como miembros del S&P. Estaban en el archivo de precios, tienen balance de la SEC y tienen CEDEAR, y la matriz SP del panel de pruebas los marca como miembros al 2026-08-07, pero la marca no se habia copiado aca, asi que el motor no los rankeaba. Verificado el 09/09/2026 comparando los 467 marcados SPY contra la ultima fila de la matriz SP del panel: las unicas cuatro diferencias eran BG, BNY, COIN y MOS; BG y BNY quedan afuera porque no tienen CEDEAR."
 }
