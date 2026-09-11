@@ -1,6 +1,6 @@
 {
  "_que_es": "Ratio de conversión: cuántos CEDEARs equivalen a 1 acción del subyacente (fraccionario cuando 1 CEDEAR representa varias acciones, ej. ABEV 1:3). Universo COMPLETO extraído por Cowork el 2026-07-15 del listado oficial 'Mercado argentino/2026-06-12-BYMA-CEDEARs.pdf' (BYMA, 12/06/2026). Clave = código BYMA; alias DIS=DISN para el colector. Solo cambia si BYMA anuncia un cambio de ratio o lista CEDEARs nuevos (releer el PDF vigente).",
- "_excluidos": "XLU: el PDF de BYMA lo lista dos veces con ratios distintos (First Trust Cybersecurity 10:1 / Utilities SPDR 15:1). Excluido hasta verificar en BYMA/PPI web cuál es el código correcto.",
+ "_excluidos": "NU (2:1) y RCTB4/Telebras quedan afuera: el PDF los trae con el ratio partido en dos columnas y no se pudo leer con confianza. XLU: el PDF de BYMA lo lista DOS VECES con el mismo codigo y ratios distintos (First Trust NASDAQ Cybersecurity 10:1 y Utilities Select Sector SPDR 15:1). Se carga con 15 —el de servicios publicos, que es el que interesa y el que Gonzalo confirmo que existe el 11/09/2026— pero EL RATIO HAY QUE CONFIRMARLO EN EL BROKER ANTES DE OPERARLO. Para las mediciones el ratio no importa: se usa el precio en Nueva York.",
  "AABA": 3,
  "AAL": 2,
  "AAP": 14,
@@ -428,5 +428,20 @@
  "XYZ": 20,
  "YELP": 2,
  "YZCA": 2,
- "ZM": 47
+ "ZM": 47,
+ "DELL": 74,
+ "GEV": 180,
+ "IBKR": 17,
+ "KLAC": 34,
+ "LIN": 102,
+ "MS": 41,
+ "NTRA": 51,
+ "PLD": 29,
+ "SHW": 69,
+ "SKHY": 25,
+ "TLN": 63,
+ "WDC": 92,
+ "WELL": 48,
+ "XLU": 15,
+ "_actualizado_11092026": "Se agregaron 14 CEDEARs que estaban en el PDF de BYMA y faltaban en este archivo: DELL, GEV, IBKR, KLAC, LIN, MS, NTRA, PLD, SHW, SKHY, TLN, WDC, WELL y XLU. Nueve son miembros del S&P y varios son de los que el motor mas queria y no podia comprar (KLAC aparecia 98 veces en el backtest como pedido-no-comprable). El archivo se habia cargado del PDF el 15/07/2026 y quedo incompleto; lo detecto Gonzalo al marcar que XLU si esta en BYMA."
 }

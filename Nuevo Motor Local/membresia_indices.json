@@ -143,6 +143,7 @@
   ],
   "MRVL": [
    "QQQ",
+   "SPY",
    "^IXIC"
   ],
   "ARM": [
@@ -1902,9 +1903,26 @@
   ],
   "MOS": [
    "SPY"
+  ],
+  "BKNG": [
+   "SPY"
+  ],
+  "HWM": [
+   "SPY"
+  ],
+  "WELL": [
+   "SPY"
+  ],
+  "XYZ": [
+   "SPY"
+  ],
+  "MRSH": [
+   "SPY"
   ]
  },
  "nota_08092026": "Se agregaron 36 CEDEARs de BYMA que faltaban. La membresia del S&P se verifico contra la matriz SP del panel de pruebas al 2026-08-07, que es la misma fuente que usa el backtest. Solo se marco SPY: la pertenencia a Dow y Nasdaq-100 no se verifico y el motor no la usa (filtro_indice = SPY).",
  "nota_09092026": "Se agregaron 318 miembros del S&P que faltaban, para que el motor rankee sobre el indice completo (467) y no sobre los 147 que estaban en el snapshot. No son CEDEARs: entran al ranking, no a la operatoria.",
- "nota_09092026b": "Se marcaron COIN y MOS como miembros del S&P. Estaban en el archivo de precios, tienen balance de la SEC y tienen CEDEAR, y la matriz SP del panel de pruebas los marca como miembros al 2026-08-07, pero la marca no se habia copiado aca, asi que el motor no los rankeaba. Verificado el 09/09/2026 comparando los 467 marcados SPY contra la ultima fila de la matriz SP del panel: las unicas cuatro diferencias eran BG, BNY, COIN y MOS; BG y BNY quedan afuera porque no tienen CEDEAR."
+ "nota_09092026b": "Se marcaron COIN y MOS como miembros del S&P. Estaban en el archivo de precios, tienen balance de la SEC y tienen CEDEAR, y la matriz SP del panel de pruebas los marca como miembros al 2026-08-07, pero la marca no se habia copiado aca, asi que el motor no los rankeaba. Verificado el 09/09/2026 comparando los 467 marcados SPY contra la ultima fila de la matriz SP del panel: las unicas cuatro diferencias eran BG, BNY, COIN y MOS; BG y BNY quedan afuera porque no tienen CEDEAR.",
+ "nota_11092026": "Se marco BKNG (Booking) como miembro del S&P. Faltaba por la misma falla del nombre viejo: el panel de pruebas lo tiene como PCLN con la marca apagada, y membresia_indices.json se construyo desde esa matriz. Booking es miembro del S&P 500, tiene CEDEAR en BYMA (ratio 700) y desde el 10/09/2026 tiene balances en piotroski_sec.csv (8 ejercicios, el ultimo del 18/02/2026).",
+ "nota_11092026b": "Se marcaron HWM, WELL, XYZ, MRSH y MRVL como miembros del S&P. Salieron de cruzar la lista OFICIAL de constituyentes del S&P 500 (503 papeles) contra el PDF de CEDEARs de BYMA: de los 156 miembros del indice con CEDEAR, estos cinco no estaban completos en el sistema. MRVL ya estaba en el archivo de precios y solo le faltaba la marca. WELL (fondo inmobiliario de salud) y MRSH (corretaje de seguros) son de los rubros defensivos, que tienen menos del 10% de cobertura de CEDEARs y son los que amortiguan el año malo. MRSH es el nombre nuevo de Marsh & McLennan, que BYMA todavia lista como MMC."
 }
