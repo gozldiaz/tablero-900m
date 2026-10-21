@@ -1,16 +1,16 @@
 {
-  "fecha": "2026-10-19 20:46",
-  "mep_al30": 1540.8,
+  "fecha": "2026-10-20 22:56",
+  "mep_al30": 1545.68,
   "soberanos_usd": [
     {
       "ticker": "AL29D",
-      "precio": 54.5,
+      "precio": 54.7,
       "moneda": "USD",
-      "tir_pct": 8.24,
+      "tir_pct": 7.97,
       "duracion_mod": 1.35,
       "paridad": 0.9,
       "vencimiento": "09/07/2029",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -18,8 +18,8 @@
         "capital": 10,
         "total": 10.3
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.167934782608696,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.169565217391304,
       "cupon_actual_pct": 1.0,
       "total_a_cobrar": 61.05,
       "cobro_intereses": 1.05,
@@ -64,22 +64,22 @@
           "total": 10.05
         }
       ],
-      "dias_al_vencimiento": 993,
-      "rendimiento_periodo_neto_pct": 10.34,
-      "tir_neta_aprox_pct": 3.68,
+      "dias_al_vencimiento": 992,
+      "rendimiento_periodo_neto_pct": 9.93,
+      "tir_neta_aprox_pct": 3.55,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.4,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "AL30D",
-      "precio": 55.27,
+      "precio": 55.38,
       "moneda": "USD",
-      "tir_pct": 9.7,
+      "tir_pct": 9.6,
       "duracion_mod": 1.76,
       "paridad": 0.9,
       "vencimiento": "09/07/2030",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -87,8 +87,8 @@
         "capital": 8,
         "total": 8.24
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.134347826086957,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.135652173913043,
       "cupon_actual_pct": 0.75,
       "total_a_cobrar": 65.92,
       "cobro_intereses": 1.92,
@@ -145,22 +145,22 @@
           "total": 8.07
         }
       ],
-      "dias_al_vencimiento": 1358,
-      "rendimiento_periodo_neto_pct": 17.48,
-      "tir_neta_aprox_pct": 4.42,
+      "dias_al_vencimiento": 1357,
+      "rendimiento_periodo_neto_pct": 17.24,
+      "tir_neta_aprox_pct": 4.37,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.8,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "AL35D",
-      "precio": 69.52,
+      "precio": 69.99,
       "moneda": "USD",
-      "tir_pct": 12.46,
-      "duracion_mod": 4.92,
+      "tir_pct": 12.32,
+      "duracion_mod": 4.93,
       "paridad": 0.7,
       "vencimiento": "09/07/2035",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -168,8 +168,8 @@
         "capital": 0,
         "total": 2.063
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 1.15483152173913,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 1.16604347826087,
       "cupon_actual_pct": 4.126,
       "total_a_cobrar": 132.626,
       "cobro_intereses": 32.626,
@@ -262,22 +262,22 @@
           "total": 11.25
         }
       ],
-      "dias_al_vencimiento": 3184,
-      "rendimiento_periodo_neto_pct": 87.91,
-      "tir_neta_aprox_pct": 7.5,
+      "dias_al_vencimiento": 3183,
+      "rendimiento_periodo_neto_pct": 86.65,
+      "tir_neta_aprox_pct": 7.42,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 6.9,
       "riesgo_etiqueta": "alto"
     },
     {
       "ticker": "AE38D",
-      "precio": 72.77,
+      "precio": 73.2,
       "moneda": "USD",
-      "tir_pct": 12.86,
-      "duracion_mod": 4.04,
+      "tir_pct": 12.71,
+      "duracion_mod": 4.05,
       "paridad": 0.7,
       "vencimiento": "09/01/2038",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -285,8 +285,8 @@
         "capital": 0,
         "total": 2.5
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 1.39945652173913,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 1.41304347826087,
       "cupon_actual_pct": 5.0,
       "total_a_cobrar": 131.24,
       "cobro_intereses": 31.25,
@@ -379,22 +379,22 @@
           "total": 5.681363625
         }
       ],
-      "dias_al_vencimiento": 4099,
-      "rendimiento_periodo_neto_pct": 77.64,
-      "tir_neta_aprox_pct": 5.25,
+      "dias_al_vencimiento": 4098,
+      "rendimiento_periodo_neto_pct": 76.6,
+      "tir_neta_aprox_pct": 5.2,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 6.0,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "AL41D",
-      "precio": 65,
+      "precio": 65.29,
       "moneda": "USD",
-      "tir_pct": 12.28,
-      "duracion_mod": 5.21,
+      "tir_pct": 12.2,
+      "duracion_mod": 5.22,
       "paridad": 0.6,
       "vencimiento": "09/07/2041",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -402,8 +402,8 @@
         "capital": 0,
         "total": 1.75
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.979619565217391,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.989130434782609,
       "cupon_actual_pct": 3.5,
       "total_a_cobrar": 136.32146430009,
       "cobro_intereses": 36.33346430009,
@@ -496,22 +496,22 @@
           "total": 5.05121429268
         }
       ],
-      "dias_al_vencimiento": 5376,
-      "rendimiento_periodo_neto_pct": 106.57,
-      "tir_neta_aprox_pct": 5.05,
+      "dias_al_vencimiento": 5375,
+      "rendimiento_periodo_neto_pct": 105.66,
+      "tir_neta_aprox_pct": 5.02,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 7.2,
       "riesgo_etiqueta": "alto"
     },
     {
       "ticker": "GD29D",
-      "precio": 55.46,
+      "precio": 55.93,
       "moneda": "USD",
-      "tir_pct": 6.16,
+      "tir_pct": 5.54,
       "duracion_mod": 1.38,
       "paridad": 0.9,
       "vencimiento": "09/07/2029",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -519,8 +519,8 @@
         "capital": 10,
         "total": 10.18
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.100760869565217,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.101739130434783,
       "cupon_actual_pct": 0.6,
       "total_a_cobrar": 60.455,
       "cobro_intereses": 0.455,
@@ -565,22 +565,22 @@
           "total": 10.005
         }
       ],
-      "dias_al_vencimiento": 993,
-      "rendimiento_periodo_neto_pct": 7.37,
-      "tir_neta_aprox_pct": 2.65,
+      "dias_al_vencimiento": 992,
+      "rendimiento_periodo_neto_pct": 6.47,
+      "tir_neta_aprox_pct": 2.33,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.4,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "GD30D",
-      "precio": 56.82,
+      "precio": 56.85,
       "moneda": "USD",
-      "tir_pct": 8.09,
+      "tir_pct": 8.07,
       "duracion_mod": 1.79,
       "paridad": 0.9,
       "vencimiento": "09/07/2030",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -588,8 +588,8 @@
         "capital": 8,
         "total": 8.24
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.134347826086957,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.135652173913043,
       "cupon_actual_pct": 0.75,
       "total_a_cobrar": 65.92,
       "cobro_intereses": 1.92,
@@ -646,22 +646,22 @@
           "total": 8.07
         }
       ],
-      "dias_al_vencimiento": 1358,
-      "rendimiento_periodo_neto_pct": 14.27,
-      "tir_neta_aprox_pct": 3.65,
+      "dias_al_vencimiento": 1357,
+      "rendimiento_periodo_neto_pct": 14.21,
+      "tir_neta_aprox_pct": 3.64,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.8,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "GD35D",
-      "precio": 73.9,
+      "precio": 74.38,
       "moneda": "USD",
-      "tir_pct": 11.16,
-      "duracion_mod": 5.0,
+      "tir_pct": 11.03,
+      "duracion_mod": 5.01,
       "paridad": 0.7,
       "vencimiento": "09/07/2035",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -669,8 +669,8 @@
         "capital": 0,
         "total": 2.063
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 1.15483152173913,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 1.16604347826087,
       "cupon_actual_pct": 4.126,
       "total_a_cobrar": 132.626,
       "cobro_intereses": 32.626,
@@ -763,22 +763,22 @@
           "total": 11.25
         }
       ],
-      "dias_al_vencimiento": 3184,
-      "rendimiento_periodo_neto_pct": 76.77,
-      "tir_neta_aprox_pct": 6.75,
+      "dias_al_vencimiento": 3183,
+      "rendimiento_periodo_neto_pct": 75.63,
+      "tir_neta_aprox_pct": 6.67,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 7.0,
       "riesgo_etiqueta": "alto"
     },
     {
       "ticker": "GD38D",
-      "precio": 78.73,
+      "precio": 79.17,
       "moneda": "USD",
-      "tir_pct": 10.85,
-      "duracion_mod": 4.24,
+      "tir_pct": 10.72,
+      "duracion_mod": 4.25,
       "paridad": 0.8,
       "vencimiento": "09/01/2038",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -786,8 +786,8 @@
         "capital": 0,
         "total": 2.5
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 1.39945652173913,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 1.41304347826087,
       "cupon_actual_pct": 5.0,
       "total_a_cobrar": 131.24,
       "cobro_intereses": 31.25,
@@ -880,22 +880,22 @@
           "total": 5.681363625
         }
       ],
-      "dias_al_vencimiento": 4099,
-      "rendimiento_periodo_neto_pct": 64.19,
-      "tir_neta_aprox_pct": 4.51,
+      "dias_al_vencimiento": 4098,
+      "rendimiento_periodo_neto_pct": 63.28,
+      "tir_neta_aprox_pct": 4.46,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 6.2,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "GD41D",
-      "precio": 68.54,
+      "precio": 69.21,
       "moneda": "USD",
-      "tir_pct": 11.22,
-      "duracion_mod": 5.36,
+      "tir_pct": 11.04,
+      "duracion_mod": 5.38,
       "paridad": 0.7,
       "vencimiento": "09/07/2041",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -903,8 +903,8 @@
         "capital": 0,
         "total": 1.75
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 0.979619565217391,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 0.989130434782609,
       "cupon_actual_pct": 3.5,
       "total_a_cobrar": 136.32146430009,
       "cobro_intereses": 36.33346430009,
@@ -997,22 +997,22 @@
           "total": 5.05121429268
         }
       ],
-      "dias_al_vencimiento": 5376,
-      "rendimiento_periodo_neto_pct": 95.91,
-      "tir_neta_aprox_pct": 4.67,
+      "dias_al_vencimiento": 5375,
+      "rendimiento_periodo_neto_pct": 94.01,
+      "tir_neta_aprox_pct": 4.6,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 7.4,
       "riesgo_etiqueta": "alto"
     },
     {
       "ticker": "GD46D",
-      "precio": 62.51,
+      "precio": 63.02,
       "moneda": "USD",
-      "tir_pct": 11.12,
-      "duracion_mod": 5.67,
+      "tir_pct": 10.97,
+      "duracion_mod": 5.7,
       "paridad": 0.7,
       "vencimiento": "09/07/2046",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-09",
@@ -1020,8 +1020,8 @@
         "capital": 2.273,
         "total": 4.14845454733
       },
-      "dias_al_proximo_pago": 81,
-      "intereses_corridos": 1.04984683899451,
+      "dias_al_proximo_pago": 80,
+      "intereses_corridos": 1.06003952675174,
       "cupon_actual_pct": 4.126,
       "total_a_cobrar": 136.19447728125,
       "cobro_intereses": 45.27447728125,
@@ -1114,9 +1114,9 @@
           "total": 3.8070909
         }
       ],
-      "dias_al_vencimiento": 7202,
-      "rendimiento_periodo_neto_pct": 114.6,
-      "tir_neta_aprox_pct": 3.95,
+      "dias_al_vencimiento": 7201,
+      "rendimiento_periodo_neto_pct": 112.87,
+      "tir_neta_aprox_pct": 3.9,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 7.7,
       "riesgo_etiqueta": "alto"
@@ -1125,39 +1125,39 @@
   "cer_pesos": [
     {
       "ticker": "TX26",
-      "precio": 759,
+      "precio": 759.4,
       "moneda": "pesos CER",
-      "tir_pct": 5.97,
+      "tir_pct": 6.39,
       "duracion_mod": 0.05,
       "paridad": 1.0,
       "vencimiento": "09/11/2026",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "OJO: los costos se comen el rendimiento — neto del período <= 0",
       "proximo_pago": {
         "fecha": "2026-11-09",
-        "interes": 7.53788895528744,
-        "capital": 753.788895528744,
-        "total": 761.326784484031
+        "interes": 7.54212571477999,
+        "capital": 754.212571477999,
+        "total": 761.754697192779
       },
-      "dias_al_proximo_pago": 20,
-      "intereses_corridos": 6.71855319927793,
+      "dias_al_proximo_pago": 19,
+      "intereses_corridos": 6.76331925510162,
       "cupon_actual_pct": 2.0,
-      "total_a_cobrar": 761.326784484031,
-      "cobro_intereses": 7.53788895528744,
-      "cobro_capital": 753.788895528744,
+      "total_a_cobrar": 761.754697192779,
+      "cobro_intereses": 7.54212571477999,
+      "cobro_capital": 754.212571477999,
       "detalle_amortizacion": "Su amortización será en 5 pagos semestrales desde 11/24.",
       "detalle_intereses": "Su cupón de interés será del 2% sobre el índice CER",
       "cronograma": [
         {
           "fecha": "2026-11-09",
-          "interes": 7.53788895528744,
-          "capital": 753.788895528744,
-          "total": 761.326784484031
+          "interes": 7.54212571477999,
+          "capital": 754.212571477999,
+          "total": 761.754697192779
         }
       ],
-      "dias_al_vencimiento": 20,
+      "dias_al_vencimiento": 19,
       "rendimiento_periodo_neto_pct": -1.2,
-      "tir_neta_aprox_pct": -19.78,
+      "tir_neta_aprox_pct": -20.65,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 2.0,
       "riesgo_etiqueta": "bajo"
@@ -1166,295 +1166,295 @@
       "ticker": "TX28",
       "precio": 1807,
       "moneda": "pesos CER",
-      "tir_pct": 7.62,
-      "duracion_mod": 0.97,
+      "tir_pct": 7.7,
+      "duracion_mod": 0.96,
       "paridad": 0.9,
       "vencimiento": "09/11/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-11-09",
-        "interes": 21.2003126867459,
-        "capital": 376.894447764372,
-        "total": 398.094760451118
+        "interes": 21.2122285728187,
+        "capital": 377.106285738999,
+        "total": 398.318514311818
       },
-      "dias_al_proximo_pago": 20,
-      "intereses_corridos": 18.8959308729692,
+      "dias_al_proximo_pago": 19,
+      "intereses_corridos": 19.0218354049733,
       "cupon_actual_pct": 2.25,
-      "total_a_cobrar": 1948.0731768821,
-      "cobro_intereses": 63.6009380602378,
-      "cobro_capital": 1884.47223882186,
+      "total_a_cobrar": 1949.16811441345,
+      "cobro_intereses": 63.6366857184561,
+      "cobro_capital": 1885.531428695,
       "detalle_amortizacion": "Su amortización será en 10 pagos semestrales desde 5/24.",
       "detalle_intereses": "Su cupón de interés será del 2.25% sobre el índice CER",
       "cronograma": [
         {
           "fecha": "2026-11-09",
-          "interes": 21.2003126867459,
-          "capital": 376.894447764372,
-          "total": 398.094760451118
+          "interes": 21.2122285728187,
+          "capital": 377.106285738999,
+          "total": 398.318514311818
         },
         {
           "fecha": "2027-05-09",
-          "interes": 16.9602501493967,
-          "capital": 376.894447764372,
-          "total": 393.854697913769
+          "interes": 16.969782858255,
+          "capital": 377.106285738999,
+          "total": 394.076068597254
         },
         {
           "fecha": "2027-11-09",
-          "interes": 12.7201876120476,
-          "capital": 376.894447764372,
-          "total": 389.61463537642
+          "interes": 12.7273371436912,
+          "capital": 377.106285738999,
+          "total": 389.83362288269
         },
         {
           "fecha": "2028-05-09",
-          "interes": 8.48012507469837,
-          "capital": 376.894447764372,
-          "total": 385.37457283907
+          "interes": 8.48489142912748,
+          "capital": 377.106285738999,
+          "total": 385.591177168127
         },
         {
           "fecha": "2028-11-09",
-          "interes": 4.24006253734918,
-          "capital": 376.894447764372,
-          "total": 381.134510301721
+          "interes": 4.24244571456374,
+          "capital": 377.106285738999,
+          "total": 381.348731453563
         }
       ],
-      "dias_al_vencimiento": 751,
-      "rendimiento_periodo_neto_pct": 6.19,
-      "tir_neta_aprox_pct": 2.96,
+      "dias_al_vencimiento": 750,
+      "rendimiento_periodo_neto_pct": 6.25,
+      "tir_neta_aprox_pct": 2.99,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.0,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZXD6",
-      "precio": 312.25,
+      "precio": 312.45,
       "moneda": "pesos CER",
       "tir_pct": 2.6,
       "duracion_mod": 0.15,
       "paridad": 1.0,
       "vencimiento": "15/12/2026",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "OJO: los costos se comen el rendimiento — neto del período <= 0",
       "proximo_pago": {
         "fecha": "2026-12-15",
         "interes": 0,
-        "capital": 313.476615561252,
-        "total": 313.476615561252
+        "capital": 313.65280879447,
+        "total": 313.65280879447
       },
-      "dias_al_proximo_pago": 56,
+      "dias_al_proximo_pago": 55,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 313.476615561252,
+      "total_a_cobrar": 313.65280879447,
       "cobro_intereses": 0,
-      "cobro_capital": 313.476615561252,
+      "cobro_capital": 313.65280879447,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón",
       "cronograma": [
         {
           "fecha": "2026-12-15",
           "interes": 0,
-          "capital": 313.476615561252,
-          "total": 313.476615561252
+          "capital": 313.65280879447,
+          "total": 313.65280879447
         }
       ],
-      "dias_al_vencimiento": 56,
+      "dias_al_vencimiento": 55,
       "rendimiento_periodo_neto_pct": -1.12,
-      "tir_neta_aprox_pct": -7.05,
+      "tir_neta_aprox_pct": -7.22,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 2.1,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZXD7",
-      "precio": 289.5,
+      "precio": 290.55,
       "moneda": "pesos CER",
-      "tir_pct": 7.15,
+      "tir_pct": 6.88,
       "duracion_mod": 1.08,
       "paridad": 0.9,
       "vencimiento": "15/12/2027",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-12-15",
         "interes": 0,
-        "capital": 313.476615561252,
-        "total": 313.476615561252
+        "capital": 313.65280879447,
+        "total": 313.65280879447
       },
-      "dias_al_proximo_pago": 421,
+      "dias_al_proximo_pago": 420,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 313.476615561252,
+      "total_a_cobrar": 313.65280879447,
       "cobro_intereses": 0,
-      "cobro_capital": 313.476615561252,
+      "cobro_capital": 313.65280879447,
       "detalle_amortizacion": "Integra al vencimiento",
       "detalle_intereses": "Cero cupón",
       "cronograma": [
         {
           "fecha": "2027-12-15",
           "interes": 0,
-          "capital": 313.476615561252,
-          "total": 313.476615561252
+          "capital": 313.65280879447,
+          "total": 313.65280879447
         }
       ],
-      "dias_al_vencimiento": 421,
-      "rendimiento_periodo_neto_pct": 6.66,
-      "tir_neta_aprox_pct": 5.75,
+      "dias_al_vencimiento": 420,
+      "rendimiento_periodo_neto_pct": 6.33,
+      "tir_neta_aprox_pct": 5.48,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.1,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZX27",
-      "precio": 414.45,
+      "precio": 414.5,
       "moneda": "pesos CER",
-      "tir_pct": 3.34,
+      "tir_pct": 3.42,
       "duracion_mod": 0.67,
       "paridad": 1.0,
       "vencimiento": "30/06/2027",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-06-30",
         "interes": 0,
-        "capital": 424.012836616963,
-        "total": 424.012836616963
+        "capital": 424.251158038406,
+        "total": 424.251158038406
       },
-      "dias_al_proximo_pago": 253,
+      "dias_al_proximo_pago": 252,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 424.012836616963,
+      "total_a_cobrar": 424.251158038406,
       "cobro_intereses": 0,
-      "cobro_capital": 424.012836616963,
+      "cobro_capital": 424.251158038406,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2027-06-30",
           "interes": 0,
-          "capital": 424.012836616963,
-          "total": 424.012836616963
+          "capital": 424.251158038406,
+          "total": 424.251158038406
         }
       ],
-      "dias_al_vencimiento": 253,
-      "rendimiento_periodo_neto_pct": 0.77,
-      "tir_neta_aprox_pct": 1.11,
+      "dias_al_vencimiento": 252,
+      "rendimiento_periodo_neto_pct": 0.81,
+      "tir_neta_aprox_pct": 1.18,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 2.7,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZX28",
-      "precio": 362.4,
+      "precio": 363.4,
       "moneda": "pesos CER",
-      "tir_pct": 9.71,
+      "tir_pct": 9.58,
       "duracion_mod": 1.54,
       "paridad": 0.9,
       "vencimiento": "30/06/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-06-30",
         "interes": 0,
-        "capital": 424.012836616963,
-        "total": 424.012836616963
+        "capital": 424.251158038406,
+        "total": 424.251158038406
       },
-      "dias_al_proximo_pago": 619,
+      "dias_al_proximo_pago": 618,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 424.012836616963,
+      "total_a_cobrar": 424.251158038406,
       "cobro_intereses": 0,
-      "cobro_capital": 424.012836616963,
+      "cobro_capital": 424.251158038406,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2028-06-30",
           "interes": 0,
-          "capital": 424.012836616963,
-          "total": 424.012836616963
+          "capital": 424.251158038406,
+          "total": 424.251158038406
         }
       ],
-      "dias_al_vencimiento": 619,
-      "rendimiento_periodo_neto_pct": 15.24,
-      "tir_neta_aprox_pct": 8.73,
+      "dias_al_vencimiento": 618,
+      "rendimiento_periodo_neto_pct": 14.99,
+      "tir_neta_aprox_pct": 8.6,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.5,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TZXS7",
-      "precio": 112.45,
+      "precio": 112.5,
       "moneda": "pesos CER",
-      "tir_pct": 4.77,
+      "tir_pct": 4.8,
       "duracion_mod": 0.9,
       "paridad": 1.0,
       "vencimiento": "30/09/2027",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-09-30",
         "interes": 0,
-        "capital": 117.510420026001,
-        "total": 117.510420026001
+        "capital": 117.576468145106,
+        "total": 117.576468145106
       },
-      "dias_al_proximo_pago": 345,
+      "dias_al_proximo_pago": 344,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 117.510420026001,
+      "total_a_cobrar": 117.576468145106,
       "cobro_intereses": 0,
-      "cobro_capital": 117.510420026001,
+      "cobro_capital": 117.576468145106,
       "detalle_amortizacion": "Ajuste de capital: El capital será ajustado por el Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de amortización de capital correspondiente.Amortización: Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2027-09-30",
           "interes": 0,
-          "capital": 117.510420026001,
-          "total": 117.510420026001
+          "capital": 117.576468145106,
+          "total": 117.576468145106
         }
       ],
-      "dias_al_vencimiento": 345,
-      "rendimiento_periodo_neto_pct": 2.93,
-      "tir_neta_aprox_pct": 3.1,
+      "dias_al_vencimiento": 344,
+      "rendimiento_periodo_neto_pct": 2.94,
+      "tir_neta_aprox_pct": 3.12,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 2.9,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZXS8",
-      "precio": 98.3,
+      "precio": 98.25,
       "moneda": "pesos CER",
-      "tir_pct": 9.63,
+      "tir_pct": 9.7,
       "duracion_mod": 1.77,
       "paridad": 0.8,
       "vencimiento": "29/09/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-09-29",
         "interes": 0,
-        "capital": 117.510420026001,
-        "total": 117.510420026001
+        "capital": 117.576468145106,
+        "total": 117.576468145106
       },
-      "dias_al_proximo_pago": 710,
+      "dias_al_proximo_pago": 709,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 117.510420026001,
+      "total_a_cobrar": 117.576468145106,
       "cobro_intereses": 0,
-      "cobro_capital": 117.510420026001,
+      "cobro_capital": 117.576468145106,
       "detalle_amortizacion": "El capital será ajustado por el Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de amortización de capital correspondiente.Amortización: Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2028-09-29",
           "interes": 0,
-          "capital": 117.510420026001,
-          "total": 117.510420026001
+          "capital": 117.576468145106,
+          "total": 117.576468145106
         }
       ],
-      "dias_al_vencimiento": 710,
-      "rendimiento_periodo_neto_pct": 17.75,
-      "tir_neta_aprox_pct": 8.76,
+      "dias_al_vencimiento": 709,
+      "rendimiento_periodo_neto_pct": 17.87,
+      "tir_neta_aprox_pct": 8.83,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.8,
       "riesgo_etiqueta": "medio"
@@ -1463,273 +1463,273 @@
   "otros_pesos": [
     {
       "ticker": "TZV27",
-      "precio": 148500,
+      "precio": 148990,
       "moneda": "pesos",
-      "tir_pct": 2.88,
-      "duracion_mod": 0.68,
+      "tir_pct": 3.41,
+      "duracion_mod": 0.67,
       "paridad": 1.0,
       "vencimiento": "30/06/2027",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-06-30",
         "interes": 0,
-        "capital": 151456.555176,
-        "total": 151456.555176
+        "capital": 152484.008789,
+        "total": 152484.008789
       },
-      "dias_al_proximo_pago": 253,
+      "dias_al_proximo_pago": 252,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 151456.555176,
+      "total_a_cobrar": 152484.008789,
       "cobro_intereses": 0,
-      "cobro_capital": 151456.555176,
+      "cobro_capital": 152484.008789,
       "detalle_amortizacion": "Moneda de pago Pesos al tipo de cambio aplicable.Tipo de cambio aplicable: Es el tipo de cambio de referencia publicado por el BCRA en función de laComunicación \"A\" 3500 correspondiente al tercer día hábil previo a la fecha de pago.Amortización: Íntegra al vencimiento al tipo de cambio aplicable.",
       "detalle_intereses": "A descuento.",
       "cronograma": [
         {
           "fecha": "2027-06-30",
           "interes": 0,
-          "capital": 151456.555176,
-          "total": 151456.555176
+          "capital": 152484.008789,
+          "total": 152484.008789
         }
       ],
-      "dias_al_vencimiento": 253,
-      "rendimiento_periodo_neto_pct": 0.46,
-      "tir_neta_aprox_pct": 0.66,
+      "dias_al_vencimiento": 252,
+      "rendimiento_periodo_neto_pct": 0.81,
+      "tir_neta_aprox_pct": 1.17,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 2.7,
       "riesgo_etiqueta": "bajo"
     },
     {
       "ticker": "TZV28",
-      "precio": 127450,
+      "precio": 127700,
       "moneda": "pesos",
-      "tir_pct": 10.72,
-      "duracion_mod": 1.53,
+      "tir_pct": 11.05,
+      "duracion_mod": 1.52,
       "paridad": 0.8,
       "vencimiento": "30/06/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-06-30",
         "interes": 0,
-        "capital": 151456.555176,
-        "total": 151456.555176
+        "capital": 152484.008789,
+        "total": 152484.008789
       },
-      "dias_al_proximo_pago": 619,
+      "dias_al_proximo_pago": 618,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 151456.555176,
+      "total_a_cobrar": 152484.008789,
       "cobro_intereses": 0,
-      "cobro_capital": 151456.555176,
+      "cobro_capital": 152484.008789,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2028-06-30",
           "interes": 0,
-          "capital": 151456.555176,
-          "total": 151456.555176
+          "capital": 152484.008789,
+          "total": 152484.008789
         }
       ],
-      "dias_al_vencimiento": 619,
-      "rendimiento_periodo_neto_pct": 17.05,
-      "tir_neta_aprox_pct": 9.73,
+      "dias_al_vencimiento": 618,
+      "rendimiento_periodo_neto_pct": 17.61,
+      "tir_neta_aprox_pct": 10.06,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.5,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TZVD8",
-      "precio": 120000,
+      "precio": 119900,
       "moneda": "pesos",
-      "tir_pct": 11.42,
-      "duracion_mod": 1.93,
+      "tir_pct": 11.83,
+      "duracion_mod": 1.92,
       "paridad": 0.8,
       "vencimiento": "15/12/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-12-15",
         "interes": 0,
-        "capital": 151456.555176,
-        "total": 151456.555176
+        "capital": 152484.008789,
+        "total": 152484.008789
       },
-      "dias_al_proximo_pago": 787,
+      "dias_al_proximo_pago": 786,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 151456.555176,
+      "total_a_cobrar": 152484.008789,
       "cobro_intereses": 0,
-      "cobro_capital": 151456.555176,
+      "cobro_capital": 152484.008789,
       "detalle_amortizacion": "Integra al vencimiento",
       "detalle_intereses": "Cero cupón.",
       "cronograma": [
         {
           "fecha": "2028-12-15",
           "interes": 0,
-          "capital": 151456.555176,
-          "total": 151456.555176
+          "capital": 152484.008789,
+          "total": 152484.008789
         }
       ],
-      "dias_al_vencimiento": 787,
-      "rendimiento_periodo_neto_pct": 24.32,
-      "tir_neta_aprox_pct": 10.62,
+      "dias_al_vencimiento": 786,
+      "rendimiento_periodo_neto_pct": 25.27,
+      "tir_neta_aprox_pct": 11.03,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.9,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TXMJ8",
-      "precio": 103.35,
+      "precio": 103.3,
       "moneda": "pesos",
-      "tir_pct": 4.9,
-      "duracion_mod": 1.62,
+      "tir_pct": 4.97,
+      "duracion_mod": 1.61,
       "paridad": 0.9,
       "vencimiento": "30/06/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-06-30",
         "interes": 0,
-        "capital": 112.076331526227,
-        "total": 112.076331526227
+        "capital": 112.139325351726,
+        "total": 112.139325351726
       },
-      "dias_al_proximo_pago": 619,
+      "dias_al_proximo_pago": 618,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 112.076331526227,
+      "total_a_cobrar": 112.139325351726,
       "cobro_intereses": 0,
-      "cobro_capital": 112.076331526227,
+      "cobro_capital": 112.139325351726,
       "detalle_amortizacion": "Integra al vencimiento",
       "detalle_intereses": "Al vencimiento el instrumento pagará el máximo de:(i)El saldo de capital de la letra ajustado conforme al Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de amortización de capital correspondiente.(ii)El devengado de los intereses a la tasa efectiva mensual ¿TAMAR TEM¿ capitalizable mensualmente hasta el vencimiento del instrumento más un margen del 3,00%. Los intereses serán calculados sobre la base de meses de treinta (30) días y años de trescientos sesenta (360) días (30/360).",
       "cronograma": [
         {
           "fecha": "2028-06-30",
           "interes": 0,
-          "capital": 112.076331526227,
-          "total": 112.076331526227
+          "capital": 112.139325351726,
+          "total": 112.139325351726
         }
       ],
-      "dias_al_vencimiento": 619,
-      "rendimiento_periodo_neto_pct": 6.81,
-      "tir_neta_aprox_pct": 3.96,
+      "dias_al_vencimiento": 618,
+      "rendimiento_periodo_neto_pct": 6.93,
+      "tir_neta_aprox_pct": 4.03,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 3.6,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TXMJ9",
-      "precio": 94.8,
+      "precio": 94.94,
       "moneda": "pesos",
-      "tir_pct": 7.04,
+      "tir_pct": 7.01,
       "duracion_mod": 2.51,
       "paridad": 0.8,
       "vencimiento": "29/06/2029",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2029-06-29",
         "interes": 0,
-        "capital": 113.838770933179,
-        "total": 113.838770933179
+        "capital": 113.902755358558,
+        "total": 113.902755358558
       },
-      "dias_al_proximo_pago": 983,
+      "dias_al_proximo_pago": 982,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 113.838770933179,
+      "total_a_cobrar": 113.902755358558,
       "cobro_intereses": 0,
-      "cobro_capital": 113.838770933179,
+      "cobro_capital": 113.902755358558,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Al vencimiento el instrumento pagará el máximo de: (i) El saldo de capital de la letra ajustado conforme al Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de amortización de capital correspondiente. El devengado de los intereses a la tasa efectiva mensual “TAMAR TEM” capitalizable mensualmente hasta el vencimiento del instrumento más un margen del 3,00%. Los intereses serán calculados sobre la base de meses de treinta (30) días y años de trescientos sesenta (360) días (30/360).",
       "cronograma": [
         {
           "fecha": "2029-06-29",
           "interes": 0,
-          "capital": 113.838770933179,
-          "total": 113.838770933179
+          "capital": 113.902755358558,
+          "total": 113.902755358558
         }
       ],
-      "dias_al_vencimiento": 983,
-      "rendimiento_periodo_neto_pct": 18.28,
-      "tir_neta_aprox_pct": 6.43,
+      "dias_al_vencimiento": 982,
+      "rendimiento_periodo_neto_pct": 18.17,
+      "tir_neta_aprox_pct": 6.4,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 4.5,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TXMD8",
-      "precio": 97.05,
+      "precio": 96.7,
       "moneda": "pesos",
-      "tir_pct": 5.52,
-      "duracion_mod": 2.04,
+      "tir_pct": 5.73,
+      "duracion_mod": 2.03,
       "paridad": 0.9,
       "vencimiento": "15/12/2028",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-12-15",
         "interes": 0,
-        "capital": 108.948026666448,
-        "total": 108.948026666448
+        "capital": 109.009262191263,
+        "total": 109.009262191263
       },
-      "dias_al_proximo_pago": 787,
+      "dias_al_proximo_pago": 786,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 108.948026666448,
+      "total_a_cobrar": 109.009262191263,
       "cobro_intereses": 0,
-      "cobro_capital": 108.948026666448,
+      "cobro_capital": 109.009262191263,
       "detalle_amortizacion": "Íntegra al vencimiento.",
       "detalle_intereses": "Al vencimiento el instrumento pagará el máximo de:(i)El saldo de capital del bono ajustado conforme al Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de interés o amortización de capital correspondiente, o(ii)El devengado de los intereses a la tasa efectiva mensual ¿TAMAR TEM¿ capitalizable mensualmente hasta el vencimiento del instrumento más un margen del 3,00%. Los intereses serán calculados sobre la base de meses de treinta (30) días y años de trescientos sesenta (360) días (30/360).",
       "cronograma": [
         {
           "fecha": "2028-12-15",
           "interes": 0,
-          "capital": 108.948026666448,
-          "total": 108.948026666448
+          "capital": 109.009262191263,
+          "total": 109.009262191263
         }
       ],
-      "dias_al_vencimiento": 787,
-      "rendimiento_periodo_neto_pct": 10.57,
-      "tir_neta_aprox_pct": 4.77,
+      "dias_al_vencimiento": 786,
+      "rendimiento_periodo_neto_pct": 11.04,
+      "tir_neta_aprox_pct": 4.98,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 4.0,
       "riesgo_etiqueta": "medio"
     },
     {
       "ticker": "TXMD9",
-      "precio": 88.04,
+      "precio": 88.01,
       "moneda": "pesos",
-      "tir_pct": 10.4,
+      "tir_pct": 10.47,
       "duracion_mod": 1.95,
       "paridad": 0.8,
       "vencimiento": "14/12/2029",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2028-12-15",
         "interes": 0,
-        "capital": 108.948026666448,
-        "total": 108.948026666448
+        "capital": 109.009262191263,
+        "total": 109.009262191263
       },
-      "dias_al_proximo_pago": 787,
+      "dias_al_proximo_pago": 786,
       "intereses_corridos": 0,
       "cupon_actual_pct": 0.0,
-      "total_a_cobrar": 108.948026666448,
+      "total_a_cobrar": 109.009262191263,
       "cobro_intereses": 0,
-      "cobro_capital": 108.948026666448,
+      "cobro_capital": 109.009262191263,
       "detalle_amortizacion": "Integra al vencimiento.",
       "detalle_intereses": "Al vencimiento el instrumento pagará el máximo de:(i) El saldo de capital del bono ajustado conforme al Coeficiente de Estabilización de Referencia (CER) informado por el BCRA, correspondiente al período transcurrido entre los 10 días hábiles anteriores a la fecha de emisión y los 10 días hábiles anteriores a la fecha de vencimiento del servicio de interés o amortización de capital correspondiente, o(ii) El devengado de los intereses a la tasa efectiva mensual ¿TAMAR TEM¿ capitalizable mensualmente hasta el vencimiento del instrumento más un margen del 3,00%. Los intereses serán calculados sobre la base de meses de treinta (30) días y años de trescientos sesenta (360) días (30/360).",
       "cronograma": [
         {
           "fecha": "2028-12-15",
           "interes": 0,
-          "capital": 108.948026666448,
-          "total": 108.948026666448
+          "capital": 109.009262191263,
+          "total": 109.009262191263
         }
       ],
-      "dias_al_vencimiento": 1151,
-      "rendimiento_periodo_neto_pct": 21.89,
-      "tir_neta_aprox_pct": 6.48,
+      "dias_al_vencimiento": 1150,
+      "rendimiento_periodo_neto_pct": 22.0,
+      "tir_neta_aprox_pct": 6.51,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "riesgo_puntos": 4.0,
       "riesgo_etiqueta": "medio"
@@ -1738,87 +1738,87 @@
   "futuros_dlr": [
     {
       "contrato": "DLR/ABR27",
-      "precio": 1712.5,
+      "precio": 1714.0,
       "vencimiento_aprox": "2027-04-30",
-      "dias": 193,
-      "deval_anual_implicita_pct": 22.1,
-      "fecha_dato": "2026-10-19"
+      "dias": 192,
+      "deval_anual_implicita_pct": 21.7,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/DIC26",
       "precio": 1590.5,
       "vencimiento_aprox": "2026-12-31",
-      "dias": 73,
-      "deval_anual_implicita_pct": 17.2,
-      "fecha_dato": "2026-10-19"
+      "dias": 72,
+      "deval_anual_implicita_pct": 15.6,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/ENE27",
       "precio": 1619.5,
       "vencimiento_aprox": "2027-01-31",
-      "dias": 104,
-      "deval_anual_implicita_pct": 19.1,
-      "fecha_dato": "2026-10-19"
+      "dias": 103,
+      "deval_anual_implicita_pct": 18.0,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/FEB27",
       "precio": 1647.0,
       "vencimiento_aprox": "2027-02-28",
-      "dias": 132,
-      "deval_anual_implicita_pct": 20.2,
-      "fecha_dato": "2026-10-19"
+      "dias": 131,
+      "deval_anual_implicita_pct": 19.4,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/JUN27",
-      "precio": 1778.0,
+      "precio": 1777.0,
       "vencimiento_aprox": "2027-06-30",
-      "dias": 254,
-      "deval_anual_implicita_pct": 22.8,
-      "fecha_dato": "2026-10-19"
+      "dias": 253,
+      "deval_anual_implicita_pct": 22.3,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/MAR27",
-      "precio": 1681.5,
+      "precio": 1680.5,
       "vencimiento_aprox": "2027-03-31",
-      "dias": 163,
-      "deval_anual_implicita_pct": 21.6,
-      "fecha_dato": "2026-10-19"
+      "dias": 162,
+      "deval_anual_implicita_pct": 20.7,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/MAY27",
       "precio": 1745.0,
       "vencimiento_aprox": "2027-05-31",
-      "dias": 224,
-      "deval_anual_implicita_pct": 22.5,
+      "dias": 223,
+      "deval_anual_implicita_pct": 22.0,
       "fecha_dato": "2026-10-19"
     },
     {
       "contrato": "DLR/NOV26",
-      "precio": 1562.0,
+      "precio": 1561.5,
       "vencimiento_aprox": "2026-11-30",
-      "dias": 42,
-      "deval_anual_implicita_pct": 12.6,
-      "fecha_dato": "2026-10-19"
+      "dias": 41,
+      "deval_anual_implicita_pct": 9.5,
+      "fecha_dato": "2026-10-20"
     },
     {
       "contrato": "DLR/OCT26",
-      "precio": 1534.0,
+      "precio": 1533.5,
       "vencimiento_aprox": "2026-10-31",
-      "dias": 12,
-      "deval_anual_implicita_pct": -12.6,
-      "fecha_dato": "2026-10-19"
+      "dias": 11,
+      "deval_anual_implicita_pct": -23.1,
+      "fecha_dato": "2026-10-20"
     }
   ],
   "ons_usd": [
     {
       "ticker": "PLC7D",
-      "precio": 101.1,
+      "precio": 101,
       "moneda": "USD",
-      "tir_pct": 7.87,
-      "duracion_mod": 6.73,
+      "tir_pct": 7.88,
+      "duracion_mod": 6.72,
       "paridad": 1.0,
       "vencimiento": "30/09/2037",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-03-30",
@@ -1826,8 +1826,8 @@
         "capital": 0,
         "total": 5.663
       },
-      "dias_al_proximo_pago": 161,
-      "intereses_corridos": 2.32328205128205,
+      "dias_al_proximo_pago": 160,
+      "intereses_corridos": 2.34402564102564,
       "cupon_actual_pct": 11.326,
       "total_a_cobrar": 177.4635,
       "cobro_intereses": 77.4635,
@@ -1920,9 +1920,9 @@
           "total": 3.775
         }
       ],
-      "dias_al_vencimiento": 3998,
-      "rendimiento_periodo_neto_pct": 72.9,
-      "tir_neta_aprox_pct": 5.13,
+      "dias_al_vencimiento": 3997,
+      "rendimiento_periodo_neto_pct": 73.07,
+      "tir_neta_aprox_pct": 5.14,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ONs Tasa Fija Pluspetrol S.A Clase 7",
       "riesgo_puntos": 7.7,
@@ -1930,13 +1930,13 @@
     },
     {
       "ticker": "CP38D",
-      "precio": 112.55,
+      "precio": 112.6,
       "moneda": "USD",
-      "tir_pct": 9.74,
-      "duracion_mod": 3.11,
+      "tir_pct": 9.73,
+      "duracion_mod": 3.1,
       "paridad": 1.1,
       "vencimiento": "28/11/2030",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-11-28",
@@ -1944,8 +1944,8 @@
         "capital": 0,
         "total": 5.938
       },
-      "dias_al_proximo_pago": 39,
-      "intereses_corridos": 4.67940217391304,
+      "dias_al_proximo_pago": 38,
+      "intereses_corridos": 4.71167391304348,
       "cupon_actual_pct": 11.876,
       "total_a_cobrar": 153.442,
       "cobro_intereses": 53.442,
@@ -2008,9 +2008,9 @@
           "total": 105.938
         }
       ],
-      "dias_al_vencimiento": 1500,
-      "rendimiento_periodo_neto_pct": 34.28,
-      "tir_neta_aprox_pct": 7.44,
+      "dias_al_vencimiento": 1499,
+      "rendimiento_periodo_neto_pct": 34.22,
+      "tir_neta_aprox_pct": 7.43,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON COMPANIA GENERAL DE 11,875 % VTO. 28/11/30",
       "riesgo_puntos": 4.1,
@@ -2018,13 +2018,13 @@
     },
     {
       "ticker": "YM34D",
-      "precio": 108.7,
+      "precio": 108.4,
       "moneda": "USD",
-      "tir_pct": 7.07,
-      "duracion_mod": 4.83,
+      "tir_pct": 7.13,
+      "duracion_mod": 4.82,
       "paridad": 1.1,
       "vencimiento": "17/01/2034",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-17",
@@ -2032,8 +2032,8 @@
         "capital": 0,
         "total": 4.125
       },
-      "dias_al_proximo_pago": 89,
-      "intereses_corridos": 2.12975543478261,
+      "dias_al_proximo_pago": 88,
+      "intereses_corridos": 2.15217391304348,
       "cupon_actual_pct": 8.25,
       "total_a_cobrar": 154.45,
       "cobro_intereses": 54.45,
@@ -2126,9 +2126,9 @@
           "total": 1.65
         }
       ],
-      "dias_al_vencimiento": 2646,
-      "rendimiento_periodo_neto_pct": 39.95,
-      "tir_neta_aprox_pct": 4.75,
+      "dias_al_vencimiento": 2645,
+      "rendimiento_periodo_neto_pct": 40.34,
+      "tir_neta_aprox_pct": 4.79,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON YPF CL. XXXIV REGS 8.25% V 17/01/34",
       "riesgo_puntos": 5.8,
@@ -2138,11 +2138,11 @@
       "ticker": "VSCXD",
       "precio": 102.85,
       "moneda": "USD",
-      "tir_pct": 7.65,
-      "duracion_mod": 7.07,
+      "tir_pct": 7.66,
+      "duracion_mod": 7.06,
       "paridad": 1.0,
       "vencimiento": "08/04/2038",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-04-08",
@@ -2150,8 +2150,8 @@
         "capital": 0,
         "total": 3.938
       },
-      "dias_al_proximo_pago": 170,
-      "intereses_corridos": 0.259648351648352,
+      "dias_al_proximo_pago": 169,
+      "intereses_corridos": 0.281285714285714,
       "cupon_actual_pct": 7.876,
       "total_a_cobrar": 182.77676,
       "cobro_intereses": 82.77676,
@@ -2244,7 +2244,7 @@
           "total": 3.938
         }
       ],
-      "dias_al_vencimiento": 4188,
+      "dias_al_vencimiento": 4187,
       "rendimiento_periodo_neto_pct": 75.04,
       "tir_neta_aprox_pct": 5.0,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
@@ -2254,13 +2254,13 @@
     },
     {
       "ticker": "YMCXD",
-      "precio": 109.4,
+      "precio": 109.35,
       "moneda": "USD",
-      "tir_pct": 6.56,
+      "tir_pct": 6.57,
       "duracion_mod": 3.54,
       "paridad": 1.1,
       "vencimiento": "11/09/2031",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-03-11",
@@ -2268,8 +2268,8 @@
         "capital": 0,
         "total": 4.375
       },
-      "dias_al_proximo_pago": 142,
-      "intereses_corridos": 0.94267955801105,
+      "dias_al_proximo_pago": 141,
+      "intereses_corridos": 0.966850828729282,
       "cupon_actual_pct": 8.75,
       "total_a_cobrar": 138.5,
       "cobro_intereses": 38.5,
@@ -2338,9 +2338,9 @@
           "total": 62.625
         }
       ],
-      "dias_al_vencimiento": 1787,
-      "rendimiento_periodo_neto_pct": 24.7,
-      "tir_neta_aprox_pct": 4.61,
+      "dias_al_vencimiento": 1786,
+      "rendimiento_periodo_neto_pct": 24.75,
+      "tir_neta_aprox_pct": 4.62,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "YPF SOCIEDAD ON  8.75% VTO. 11/09/31",
       "riesgo_puntos": 4.5,
@@ -2348,13 +2348,13 @@
     },
     {
       "ticker": "IRCPD",
-      "precio": 105.3,
+      "precio": 105.7,
       "moneda": "USD",
-      "tir_pct": 7.27,
+      "tir_pct": 7.21,
       "duracion_mod": 5.57,
-      "paridad": 1.0,
+      "paridad": 1.1,
       "vencimiento": "31/03/2035",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-03-31",
@@ -2362,8 +2362,8 @@
         "capital": 0,
         "total": 3.989
       },
-      "dias_al_proximo_pago": 162,
-      "intereses_corridos": 0.438351648351648,
+      "dias_al_proximo_pago": 161,
+      "intereses_corridos": 0.460269230769231,
       "cupon_actual_pct": 7.978,
       "total_a_cobrar": 160.113,
       "cobro_intereses": 60.113,
@@ -2456,9 +2456,9 @@
           "total": 2.68737
         }
       ],
-      "dias_al_vencimiento": 3084,
-      "rendimiento_periodo_neto_pct": 49.77,
-      "tir_neta_aprox_pct": 4.9,
+      "dias_al_vencimiento": 3083,
+      "rendimiento_periodo_neto_pct": 49.2,
+      "tir_neta_aprox_pct": 4.85,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON IRSA INV. Y REP. V 31/03/35",
       "riesgo_puntos": 6.6,
@@ -2466,13 +2466,13 @@
     },
     {
       "ticker": "RUCDD",
-      "precio": 106.9,
+      "precio": 106.6,
       "moneda": "USD",
-      "tir_pct": 8.86,
+      "tir_pct": 8.97,
       "duracion_mod": 2.88,
       "paridad": 1.0,
       "vencimiento": "05/12/2030",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-12-05",
@@ -2480,8 +2480,8 @@
         "capital": 0,
         "total": 4.875
       },
-      "dias_al_proximo_pago": 46,
-      "intereses_corridos": 3.64959016393443,
+      "dias_al_proximo_pago": 45,
+      "intereses_corridos": 3.67622950819672,
       "cupon_actual_pct": 9.75,
       "total_a_cobrar": 138.75625,
       "cobro_intereses": 38.75625,
@@ -2544,9 +2544,9 @@
           "total": 68.16875
         }
       ],
-      "dias_al_vencimiento": 1507,
-      "rendimiento_periodo_neto_pct": 27.85,
-      "tir_neta_aprox_pct": 6.13,
+      "dias_al_vencimiento": 1506,
+      "rendimiento_periodo_neto_pct": 28.21,
+      "tir_neta_aprox_pct": 6.21,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "MSU ENERGY S.A. REGS 9.75% VTO. 05/12/30",
       "riesgo_puntos": 3.9,
@@ -2554,13 +2554,13 @@
     },
     {
       "ticker": "MGCRD",
-      "precio": 104.4,
+      "precio": 104.6,
       "moneda": "USD",
-      "tir_pct": 7.75,
-      "duracion_mod": 7.12,
+      "tir_pct": 7.73,
+      "duracion_mod": 7.13,
       "paridad": 1.0,
       "vencimiento": "14/11/2037",
-      "fecha_precio": "2026-10-19T17:01",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-11-14",
@@ -2568,8 +2568,8 @@
         "capital": 0,
         "total": 3.875
       },
-      "dias_al_proximo_pago": 25,
-      "intereses_corridos": 3.34850543478261,
+      "dias_al_proximo_pago": 24,
+      "intereses_corridos": 3.3695652173913,
       "cupon_actual_pct": 7.75,
       "total_a_cobrar": 189.125,
       "cobro_intereses": 89.125,
@@ -2662,9 +2662,9 @@
           "total": 3.875
         }
       ],
-      "dias_al_vencimiento": 4043,
-      "rendimiento_periodo_neto_pct": 78.43,
-      "tir_neta_aprox_pct": 5.37,
+      "dias_al_vencimiento": 4042,
+      "rendimiento_periodo_neto_pct": 78.09,
+      "tir_neta_aprox_pct": 5.35,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON PAMPA ENERGIA S.A. CL. XXVI V. 14/11/37",
       "riesgo_puntos": 8.1,
@@ -2672,13 +2672,13 @@
     },
     {
       "ticker": "MIC4D",
-      "precio": 101.3,
+      "precio": 101.7,
       "moneda": "USD",
-      "tir_pct": 9.34,
+      "tir_pct": 8.79,
       "duracion_mod": 0.68,
       "paridad": 1.0,
       "vencimiento": "29/07/2027",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-10-29",
@@ -2686,8 +2686,8 @@
         "capital": 0,
         "total": 2.079
       },
-      "dias_al_proximo_pago": 9,
-      "intereses_corridos": 1.87561956521739,
+      "dias_al_proximo_pago": 8,
+      "intereses_corridos": 1.89821739130435,
       "cupon_actual_pct": 2.079,
       "total_a_cobrar": 108.249,
       "cobro_intereses": 8.249,
@@ -2720,9 +2720,9 @@
           "total": 102.057
         }
       ],
-      "dias_al_vencimiento": 282,
-      "rendimiento_periodo_neto_pct": 5.25,
-      "tir_neta_aprox_pct": 6.85,
+      "dias_al_vencimiento": 281,
+      "rendimiento_periodo_neto_pct": 4.84,
+      "tir_neta_aprox_pct": 6.33,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON MIRGOR CL.4 29/07/27 USD",
       "riesgo_puntos": 1.7,
@@ -2730,13 +2730,13 @@
     },
     {
       "ticker": "TLCTD",
-      "precio": 107.3,
+      "precio": 106.85,
       "moneda": "USD",
-      "tir_pct": 7.82,
-      "duracion_mod": 6.05,
-      "paridad": 1.1,
+      "tir_pct": 7.9,
+      "duracion_mod": 6.04,
+      "paridad": 1.0,
       "vencimiento": "20/01/2036",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-20",
@@ -2744,8 +2744,8 @@
         "capital": 0,
         "total": 4.25
       },
-      "dias_al_proximo_pago": 92,
-      "intereses_corridos": 2.125,
+      "dias_al_proximo_pago": 91,
+      "intereses_corridos": 2.14809782608696,
       "cupon_actual_pct": 8.5,
       "total_a_cobrar": 176.5,
       "cobro_intereses": 76.5,
@@ -2838,9 +2838,9 @@
           "total": 4.25
         }
       ],
-      "dias_al_vencimiento": 3379,
-      "rendimiento_periodo_neto_pct": 62.02,
-      "tir_neta_aprox_pct": 5.35,
+      "dias_al_vencimiento": 3378,
+      "rendimiento_periodo_neto_pct": 62.7,
+      "tir_neta_aprox_pct": 5.4,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON TELECOM ARGENTINA S 8,5 % VTO. 20/01/36",
       "riesgo_puntos": 7.0,
@@ -2848,13 +2848,13 @@
     },
     {
       "ticker": "EAC4D",
-      "precio": 102.55,
+      "precio": 102.4,
       "moneda": "USD",
-      "tir_pct": 10.13,
+      "tir_pct": 10.16,
       "duracion_mod": 5.54,
       "paridad": 1.0,
       "vencimiento": "16/06/2036",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-12-16",
@@ -2862,8 +2862,8 @@
         "capital": 0,
         "total": 4.875
       },
-      "dias_al_proximo_pago": 57,
-      "intereses_corridos": 3.35655737704918,
+      "dias_al_proximo_pago": 56,
+      "intereses_corridos": 3.38319672131148,
       "cupon_actual_pct": 9.75,
       "total_a_cobrar": 187.8475,
       "cobro_intereses": 87.8475,
@@ -2956,9 +2956,9 @@
           "total": 4.875
         }
       ],
-      "dias_al_vencimiento": 3527,
-      "rendimiento_periodo_neto_pct": 80.42,
-      "tir_neta_aprox_pct": 6.3,
+      "dias_al_vencimiento": 3526,
+      "rendimiento_periodo_neto_pct": 80.69,
+      "tir_neta_aprox_pct": 6.32,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON MSU GREEN ENERGY S A 9,75 % VTO. 16/6/2036",
       "riesgo_puntos": 6.5,
@@ -2966,13 +2966,13 @@
     },
     {
       "ticker": "TLCPD",
-      "precio": 111.45,
+      "precio": 111.9,
       "moneda": "USD",
-      "tir_pct": 7.77,
+      "tir_pct": 7.68,
       "duracion_mod": 4.52,
       "paridad": 1.1,
       "vencimiento": "28/05/2033",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-11-28",
@@ -2980,8 +2980,8 @@
         "capital": 0,
         "total": 4.625
       },
-      "dias_al_proximo_pago": 39,
-      "intereses_corridos": 3.64470108695652,
+      "dias_al_proximo_pago": 38,
+      "intereses_corridos": 3.66983695652174,
       "cupon_actual_pct": 9.25,
       "total_a_cobrar": 160.125,
       "cobro_intereses": 60.125,
@@ -3074,9 +3074,9 @@
           "total": 52.3125
         }
       ],
-      "dias_al_vencimiento": 2412,
-      "rendimiento_periodo_neto_pct": 41.52,
-      "tir_neta_aprox_pct": 5.4,
+      "dias_al_vencimiento": 2411,
+      "rendimiento_periodo_neto_pct": 40.95,
+      "tir_neta_aprox_pct": 5.33,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON TELECOM ARGENTINA SA REGS 9.25% V. 28/05/33",
       "riesgo_puntos": 5.5,
@@ -3084,13 +3084,13 @@
     },
     {
       "ticker": "VSCVD",
-      "precio": 111.3,
+      "precio": 111.45,
       "moneda": "USD",
-      "tir_pct": 6.83,
+      "tir_pct": 6.8,
       "duracion_mod": 4.36,
       "paridad": 1.1,
       "vencimiento": "10/06/2033",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-12-10",
@@ -3098,8 +3098,8 @@
         "capital": 0,
         "total": 4.25
       },
-      "dias_al_proximo_pago": 51,
-      "intereses_corridos": 3.0655737704918,
+      "dias_al_proximo_pago": 50,
+      "intereses_corridos": 3.08879781420765,
       "cupon_actual_pct": 8.5,
       "total_a_cobrar": 151.085,
       "cobro_intereses": 51.085,
@@ -3192,9 +3192,9 @@
           "total": 35.445
         }
       ],
-      "dias_al_vencimiento": 2425,
-      "rendimiento_periodo_neto_pct": 33.71,
-      "tir_neta_aprox_pct": 4.47,
+      "dias_al_vencimiento": 2424,
+      "rendimiento_periodo_neto_pct": 33.53,
+      "tir_neta_aprox_pct": 4.45,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "VISTA ENERGY A REGS 8.5% 10/06/33",
       "riesgo_puntos": 5.4,
@@ -3202,13 +3202,13 @@
     },
     {
       "ticker": "DNCAD",
-      "precio": 100.85,
+      "precio": 100.6,
       "moneda": "USD",
-      "tir_pct": 10.67,
-      "duracion_mod": 3.97,
+      "tir_pct": 10.74,
+      "duracion_mod": 3.96,
       "paridad": 1.0,
       "vencimiento": "28/04/2033",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2026-10-28",
@@ -3216,8 +3216,8 @@
         "capital": 0,
         "total": 4.75
       },
-      "dias_al_proximo_pago": 8,
-      "intereses_corridos": 4.54234972677596,
+      "dias_al_proximo_pago": 7,
+      "intereses_corridos": 4.56830601092896,
       "cupon_actual_pct": 9.5,
       "total_a_cobrar": 157.00095,
       "cobro_intereses": 57.00095,
@@ -3310,9 +3310,9 @@
           "total": 34.92365
         }
       ],
-      "dias_al_vencimiento": 2382,
-      "rendimiento_periodo_neto_pct": 53.34,
-      "tir_neta_aprox_pct": 6.77,
+      "dias_al_vencimiento": 2381,
+      "rendimiento_periodo_neto_pct": 53.72,
+      "tir_neta_aprox_pct": 6.81,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON EMP. DISTRIB. Y COMERC NORTE (EDENOR) 9,5% 28/4/33",
       "riesgo_puntos": 5.0,
@@ -3320,13 +3320,13 @@
     },
     {
       "ticker": "PN43D",
-      "precio": 107.7,
+      "precio": 107.25,
       "moneda": "USD",
-      "tir_pct": 7.03,
-      "duracion_mod": 6.48,
+      "tir_pct": 7.1,
+      "duracion_mod": 6.47,
       "paridad": 1.1,
       "vencimiento": "15/01/2037",
-      "fecha_precio": "2026-10-19T17:00",
+      "fecha_precio": "2026-10-20T17:00",
       "estado": "ok",
       "proximo_pago": {
         "fecha": "2027-01-15",
@@ -3334,8 +3334,8 @@
         "capital": 0,
         "total": 3.875
       },
-      "dias_al_proximo_pago": 87,
-      "intereses_corridos": 2.04279891304348,
+      "dias_al_proximo_pago": 86,
+      "intereses_corridos": 2.06385869565217,
       "cupon_actual_pct": 7.75,
       "total_a_cobrar": 173.7025,
       "cobro_intereses": 73.7025,
@@ -3428,9 +3428,9 @@
           "total": 3.875
         }
       ],
-      "dias_al_vencimiento": 3740,
-      "rendimiento_periodo_neto_pct": 58.86,
-      "tir_neta_aprox_pct": 4.62,
+      "dias_al_vencimiento": 3739,
+      "rendimiento_periodo_neto_pct": 59.53,
+      "tir_neta_aprox_pct": 4.66,
       "costos_usados": "entrada 0.51% + cobros 1.0% (Bull Market - Digital Account (tarifa estándar))",
       "descripcion": "ON PAN AMERICAN ENERGY S.L 7,75 % V. 15/01/2037",
       "riesgo_puntos": 7.5,
