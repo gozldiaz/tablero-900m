@@ -1,6 +1,6 @@
 {
  "fuente": "Yahoo Finance (Bolsas) + Wikipedia (SPY/QQQ/DIA) + Tabla Manual (Locales)",
- "fecha_extraccion": "2026-06-17",
+ "fecha_extraccion": "2026-10-28",
  "membresia": {
   "AAPL": [
    "SPY",
@@ -72,8 +72,6 @@
    "^NYA"
   ],
   "EA": [
-   "SPY",
-   "QQQ",
    "^IXIC"
   ],
   "HPQ": [
@@ -230,7 +228,8 @@
    "^NYA"
   ],
   "NBIS": [
-   "^IXIC"
+   "^IXIC",
+   "QQQ"
   ],
   "VZ": [
    "SPY",
@@ -272,7 +271,8 @@
   "WMT": [
    "SPY",
    "DIA",
-   "^NYA"
+   "QQQ",
+   "^IXIC"
   ],
   "TGT": [
    "SPY",
@@ -520,7 +520,8 @@
   ],
   "ITA": [],
   "RKLB": [
-   "^IXIC"
+   "^IXIC",
+   "QQQ"
   ],
   "ONDS": [
    "^IXIC"
@@ -870,7 +871,9 @@
    "SPY"
   ],
   "KLAC": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "DECK": [
    "SPY"
@@ -897,7 +900,9 @@
    "SPY"
   ],
   "LIN": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "SPGI": [
    "SPY"
@@ -909,19 +914,26 @@
    "SPY"
   ],
   "ADP": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "ECL": [
    "SPY"
   ],
   "SHW": [
-   "SPY"
+   "SPY",
+   "DIA"
   ],
   "ROST": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "VRTX": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "DD": [
    "SPY"
@@ -939,7 +951,9 @@
    "SPY"
   ],
   "WDC": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "FISV": [
    "SPY"
@@ -954,13 +968,17 @@
    "SPY"
   ],
   "ADSK": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "AEE": [
    "SPY"
   ],
   "AEP": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "AES": [
    "SPY"
@@ -1020,7 +1038,9 @@
    "SPY"
   ],
   "APP": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "APTV": [
    "SPY"
@@ -1034,14 +1054,14 @@
   "ATO": [
    "SPY"
   ],
-  "AVB": [
-   "SPY"
-  ],
+  "AVB": [],
   "AWK": [
    "SPY"
   ],
   "AXON": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "AZO": [
    "SPY"
@@ -1059,11 +1079,11 @@
    "SPY"
   ],
   "BKR": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
-  "BLDR": [
-   "SPY"
-  ],
+  "BLDR": [],
   "BLK": [
    "SPY"
   ],
@@ -1079,9 +1099,7 @@
   "BXP": [
    "SPY"
   ],
-  "CAG": [
-   "SPY"
-  ],
+  "CAG": [],
   "CARR": [
    "SPY"
   ],
@@ -1098,7 +1116,9 @@
    "SPY"
   ],
   "CDNS": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "CDW": [
    "SPY"
@@ -1128,7 +1148,9 @@
    "SPY"
   ],
   "CMCSA": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "CME": [
    "SPY"
@@ -1157,11 +1179,11 @@
   "COR": [
    "SPY"
   ],
-  "CPB": [
-   "SPY"
-  ],
+  "CPB": [],
   "CPRT": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "CPT": [
    "SPY"
@@ -1176,17 +1198,19 @@
    "SPY"
   ],
   "CSX": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "CTAS": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "CTSH": [
    "SPY"
   ],
-  "CTVA": [
-   "SPY"
-  ],
+  "CTVA": [],
   "CVNA": [
    "SPY"
   ],
@@ -1194,10 +1218,14 @@
    "SPY"
   ],
   "DASH": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "DDOG": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "DG": [
    "SPY"
@@ -1239,7 +1267,9 @@
    "SPY"
   ],
   "DXCM": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "ED": [
    "SPY"
@@ -1259,15 +1289,11 @@
   "EOG": [
    "SPY"
   ],
-  "EPAM": [
-   "SPY"
-  ],
+  "EPAM": [],
   "EQIX": [
    "SPY"
   ],
-  "EQR": [
-   "SPY"
-  ],
+  "EQR": [],
   "EQT": [
    "SPY"
   ],
@@ -1293,7 +1319,9 @@
    "SPY"
   ],
   "EXC": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "EXPD": [
    "SPY"
@@ -1305,10 +1333,14 @@
    "SPY"
   ],
   "FANG": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "FAST": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "FDS": [
    "SPY"
@@ -1341,7 +1373,9 @@
    "SPY"
   ],
   "FTNT": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "FTV": [
    "SPY"
@@ -1353,7 +1387,9 @@
    "SPY"
   ],
   "GEHC": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "GIS": [
    "SPY"
@@ -1391,9 +1427,7 @@
   "HLT": [
    "SPY"
   ],
-  "HOLX": [
-   "SPY"
-  ],
+  "HOLX": [],
   "HPE": [
    "SPY"
   ],
@@ -1413,7 +1447,9 @@
    "SPY"
   ],
   "IDXX": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "IEX": [
    "SPY"
@@ -1422,7 +1458,9 @@
    "SPY"
   ],
   "INTU": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "INVH": [
    "SPY"
@@ -1461,7 +1499,9 @@
    "SPY"
   ],
   "KHC": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "KIM": [
    "SPY"
@@ -1499,9 +1539,7 @@
   "LUV": [
    "SPY"
   ],
-  "LW": [
-   "SPY"
-  ],
+  "LW": [],
   "LYB": [
    "SPY"
   ],
@@ -1512,13 +1550,17 @@
    "SPY"
   ],
   "MAR": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "MAS": [
    "SPY"
   ],
   "MCHP": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "MCK": [
    "SPY"
@@ -1539,16 +1581,18 @@
    "SPY"
   ],
   "MNST": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
-  "MOH": [
-   "SPY"
-  ],
+  "MOH": [],
   "MPC": [
    "SPY"
   ],
   "MPWR": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "MSCI": [
    "SPY"
@@ -1556,9 +1600,7 @@
   "MTB": [
    "SPY"
   ],
-  "MTCH": [
-   "SPY"
-  ],
+  "MTCH": [],
   "MTD": [
    "SPY"
   ],
@@ -1599,10 +1641,14 @@
    "SPY"
   ],
   "NXPI": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "ODFL": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "OKE": [
    "SPY"
@@ -1616,11 +1662,11 @@
   "OTIS": [
    "SPY"
   ],
-  "PAYC": [
-   "SPY"
-  ],
+  "PAYC": [],
   "PAYX": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "PCG": [
    "SPY"
@@ -1655,9 +1701,7 @@
   "PODD": [
    "SPY"
   ],
-  "POOL": [
-   "SPY"
-  ],
+  "POOL": [],
   "PPG": [
    "SPY"
   ],
@@ -1683,7 +1727,9 @@
    "SPY"
   ],
   "REGN": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "RF": [
    "SPY"
@@ -1704,7 +1750,9 @@
    "SPY"
   ],
   "ROP": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "RSG": [
    "SPY"
@@ -1719,7 +1767,9 @@
    "SPY"
   ],
   "SNPS": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "SO": [
    "SPY"
@@ -1743,7 +1793,9 @@
    "SPY"
   ],
   "STX": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "STZ": [
    "SPY"
@@ -1757,9 +1809,7 @@
   "SYK": [
    "SPY"
   ],
-  "TAP": [
-   "SPY"
-  ],
+  "TAP": [],
   "TDG": [
    "SPY"
   ],
@@ -1773,7 +1823,9 @@
    "SPY"
   ],
   "TER": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "TKO": [
    "SPY"
@@ -1791,7 +1843,8 @@
    "SPY"
   ],
   "TRV": [
-   "SPY"
+   "SPY",
+   "DIA"
   ],
   "TSCO": [
    "SPY"
@@ -1799,11 +1852,11 @@
   "TSN": [
    "SPY"
   ],
-  "TTD": [
-   "SPY"
-  ],
+  "TTD": [],
   "TTWO": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "TYL": [
    "SPY"
@@ -1854,7 +1907,9 @@
    "SPY"
   ],
   "WDAY": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "WEC": [
    "SPY"
@@ -1881,7 +1936,9 @@
    "SPY"
   ],
   "XEL": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "XYL": [
    "SPY"
@@ -1905,7 +1962,9 @@
    "SPY"
   ],
   "BKNG": [
-   "SPY"
+   "SPY",
+   "QQQ",
+   "^IXIC"
   ],
   "HWM": [
    "SPY"
@@ -1918,11 +1977,148 @@
   ],
   "MRSH": [
    "SPY"
+  ],
+  "BG": [
+   "SPY"
+  ],
+  "BNY": [
+   "SPY"
+  ],
+  "BALL": [
+   "SPY"
+  ],
+  "BE": [
+   "SPY"
+  ],
+  "BF-B": [
+   "SPY"
+  ],
+  "CASY": [
+   "SPY"
+  ],
+  "CBRE": [
+   "SPY"
+  ],
+  "CIEN": [
+   "SPY"
+  ],
+  "COHR": [
+   "SPY"
+  ],
+  "CPAY": [
+   "SPY"
+  ],
+  "ECHO": [
+   "SPY"
+  ],
+  "EG": [
+   "SPY"
+  ],
+  "ELV": [
+   "SPY"
+  ],
+  "EXE": [
+   "SPY"
+  ],
+  "FDXF": [
+   "SPY"
+  ],
+  "FERG": [
+   "SPY"
+  ],
+  "FLEX": [
+   "SPY"
+  ],
+  "GEN": [
+   "SPY"
+  ],
+  "GL": [
+   "SPY"
+  ],
+  "HONA": [
+   "SPY"
+  ],
+  "HST": [
+   "SPY"
+  ],
+  "ILMN": [
+   "SPY"
+  ],
+  "J": [
+   "SPY"
+  ],
+  "KDP": [
+   "SPY"
+  ],
+  "KKR": [
+   "SPY"
+  ],
+  "LEN": [
+   "SPY"
+  ],
+  "LHX": [
+   "SPY"
+  ],
+  "LITE": [
+   "SPY"
+  ],
+  "P": [
+   "SPY"
+  ],
+  "RDDT": [
+   "SPY"
+  ],
+  "REG": [
+   "SPY"
+  ],
+  "RVTY": [
+   "SPY"
+  ],
+  "SKYD": [
+   "SPY"
+  ],
+  "SYF": [
+   "SPY"
+  ],
+  "TFC": [
+   "SPY"
+  ],
+  "TPR": [
+   "SPY"
+  ],
+  "TT": [
+   "SPY"
+  ],
+  "TWLO": [
+   "SPY"
+  ],
+  "TXT": [
+   "SPY"
+  ],
+  "VEEV": [
+   "SPY"
+  ],
+  "VMRK": [
+   "SPY"
+  ],
+  "VRT": [
+   "SPY"
+  ],
+  "VYLR": [
+   "SPY"
+  ],
+  "WRB": [
+   "SPY"
+  ],
+  "MSTR": [
+   "QQQ",
+   "^IXIC"
   ]
  },
  "nota_08092026": "Se agregaron 36 CEDEARs de BYMA que faltaban. La membresia del S&P se verifico contra la matriz SP del panel de pruebas al 2026-08-07, que es la misma fuente que usa el backtest. Solo se marco SPY: la pertenencia a Dow y Nasdaq-100 no se verifico y el motor no la usa (filtro_indice = SPY).",
  "nota_09092026": "Se agregaron 318 miembros del S&P que faltaban, para que el motor rankee sobre el indice completo (467) y no sobre los 147 que estaban en el snapshot. No son CEDEARs: entran al ranking, no a la operatoria.",
  "nota_09092026b": "Se marcaron COIN y MOS como miembros del S&P. Estaban en el archivo de precios, tienen balance de la SEC y tienen CEDEAR, y la matriz SP del panel de pruebas los marca como miembros al 2026-08-07, pero la marca no se habia copiado aca, asi que el motor no los rankeaba. Verificado el 09/09/2026 comparando los 467 marcados SPY contra la ultima fila de la matriz SP del panel: las unicas cuatro diferencias eran BG, BNY, COIN y MOS; BG y BNY quedan afuera porque no tienen CEDEAR.",
  "nota_11092026": "Se marco BKNG (Booking) como miembro del S&P. Faltaba por la misma falla del nombre viejo: el panel de pruebas lo tiene como PCLN con la marca apagada, y membresia_indices.json se construyo desde esa matriz. Booking es miembro del S&P 500, tiene CEDEAR en BYMA (ratio 700) y desde el 10/09/2026 tiene balances en piotroski_sec.csv (8 ejercicios, el ultimo del 18/02/2026).",
- "nota_11092026b": "Se marcaron HWM, WELL, XYZ, MRSH y MRVL como miembros del S&P. Salieron de cruzar la lista OFICIAL de constituyentes del S&P 500 (503 papeles) contra el PDF de CEDEARs de BYMA: de los 156 miembros del indice con CEDEAR, estos cinco no estaban completos en el sistema. MRVL ya estaba en el archivo de precios y solo le faltaba la marca. WELL (fondo inmobiliario de salud) y MRSH (corretaje de seguros) son de los rubros defensivos, que tienen menos del 10% de cobertura de CEDEARs y son los que amortiguan el año malo. MRSH es el nombre nuevo de Marsh & McLennan, que BYMA todavia lista como MMC."
+ "nota_11092026b": "Se marcaron HWM, WELL, XYZ, MRSH y MRVL como miembros del S&P. Salieron de cruzar la lista OFICIAL de constituyentes del S&P 500 (503 papeles) contra el PDF de CEDEARs de BYMA: de los 156 miembros del indice con CEDEAR, estos cinco no estaban completos en el sistema. MRVL ya estaba en el archivo de precios y solo le faltaba la marca. WELL (fondo inmobiliario de salud) y MRSH (corretaje de seguros) son de los rubros defensivos, que tienen menos del 10% de cobertura de CEDEARs y son los que amortiguan el año malo. MRSH es el nombre nuevo de Marsh & McLennan, que BYMA todavia lista como MMC.",
+ "nota_spy": "28/10/2026. SPY: igualada a la lista oficial de 503 (Historial/sp500_constituents_2026-10-28.csv). DIA: igualada a los 30 del Dow (se agregan TRV y SHW). QQQ: se agregan 47 papeles de la foto que estan en el Nasdaq-100 segun la composicion de junio de 2026 (chartrow.com) y se saca EA; no se pudo confirmar a quien reemplazo SpaceX el 07/07/2026. WMT pasa de ^NYA a ^IXIC (se mudo al Nasdaq). Los indices extranjeros (^FTSE, ^HSI, etc.) no se revisaron. Todo papel con QQQ lleva tambien ^IXIC (Nasdaq Composite)."
 }
