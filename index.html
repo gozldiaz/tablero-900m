@@ -27,8 +27,8 @@
     </div>
     
     
-    <script>window.__V__ = "20261030200041";</script>
-    <script src="./publico_config.js?v=20261030200041"></script>
+    <script>window.__V__ = "20261031121826";</script>
+    <script src="./publico_config.js?v=20261031121826"></script>
     <script>
     // ================= TABLERO PUBLICO - SOLO LECTURA =================
     // 1) Rutas absolutas -> relativas, y bloqueo de toda escritura/accion.
@@ -81,7 +81,7 @@
         const cfg = window.__PUBLICO__;
         document.querySelectorAll("button, [role=tab], a, input").forEach(el => {
             const t = (el.innerText || el.value || "").trim();
-            if (el.tagName === "INPUT") { el.style.display = "none"; return; }
+            if (el.tagName === "INPUT") { if (el.dataset && el.dataset.publico === "capital") return; el.style.display = "none"; return; }
             if (cfg.ocultar_pestanas.includes(t)) el.style.display = "none";
             if (cfg.ocultar_botones.some(b => t === b || t.startsWith(b + " "))) el.style.display = "none";
         });
