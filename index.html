@@ -27,8 +27,8 @@
     </div>
     
     
-    <script>window.__V__ = "20261110200043";</script>
-    <script src="./publico_config.js?v=20261110200043"></script>
+    <script>window.__V__ = "20261111200003";</script>
+    <script src="./publico_config.js?v=20261111200003"></script>
     <script>
     // ================= TABLERO PUBLICO - SOLO LECTURA =================
     // 1) Rutas absolutas -> relativas, y bloqueo de toda escritura/accion.
@@ -188,16 +188,61 @@
             }
         };
 
-        logMsg("Cargando el tablero (ya viene traducido)...");
-        const scripts = ["./react.min.js", "./react-dom.min.js", "./app_compilada.js?v=" + (window.__V__ || "")];
-        (function cargar(n) {
-            if (n >= scripts.length) return;
-            const s = document.createElement('script');
-            s.src = scripts[n];
-            s.onload = () => { logMsg("OK: " + scripts[n].split('/').pop()); cargar(n + 1); };
-            s.onerror = () => showError("Fallo la carga de: " + scripts[n]);
+        logMsg("Pantalla montada. Cargando dependencias LOCALES...");
+
+        const scripts = [
+            "./react.min.js",
+            "./react-dom.min.js",
+            "./babel.min.js"
+        ];
+        
+        let loadedCount = 0;
+        scripts.forEach(src => {
+            let s = document.createElement('script');
+            s.src = src;
+            s.onload = () => {
+                loadedCount++;
+                logMsg("OK: " + src.split('/').pop());
+                if(loadedCount === scripts.length) {
+                    logMsg("Dependencias listas. Buscando tu archivo 900_magnificas_local.jsx...");
+                    loadApp();
+                }
+            };
+            s.onerror = () => showError("Fallo la carga de: " + src);
             document.head.appendChild(s);
-        })(0);
+        });
+
+        function loadApp() {
+            fetch('../900_magnificas_local.jsx?t=' + Date.now(), {cache: 'no-store'})
+                .then(response => {
+                    if (!response.ok) throw new Error("HTTP " + response.status);
+                    return response.text();
+                })
+                .then(jsxCode => {
+                    logMsg("Archivo local leído correctamente (" + Math.round(jsxCode.length / 1024) + " KB). Iniciando Babel para traducirlo...");
+                    
+                    setTimeout(() => {
+                        try {
+                            let code = jsxCode.replace(/import\s+{([^}]+)}\s+from\s+["']react["'];?/g, (match, p1) => {
+                                return `const { ${p1} } = window.React;`;
+                            });
+                            code = code.replace(/import\s+{([^}]+)}\s+from\s+["']lucide-react["'];?/g, (match, p1) => {
+                                return `const { ${p1} } = window.lucide || {};`;
+                            });
+                            code = code.replace(/export\s+default\s+function\s+App/g, 'function App');
+                            
+                            code += ' ; class __EB extends window.React.Component { constructor(p){ super(p); this.state={err:null}; } componentDidCatch(e,i){ this.setState({err: String(e && (e.stack||e.message||e)) + " | " + String((i&&i.componentStack)||"") }); } render(){ if(this.state.err){ return window.React.createElement("pre",{style:{color:"#f87171",background:"#161821",padding:"24px",whiteSpace:"pre-wrap",fontSize:"12px",fontFamily:"monospace"}},"ERROR EN ESTA PESTANA (captura y mandasela a Claude): " + this.state.err); } return this.props.children; } } window.ReactDOM.render(window.React.createElement(__EB,null,window.React.createElement(App)), document.getElementById("root")); var __c = document.getElementById("__cortina"); if (__c) __c.remove();';
+
+                            const compiled = window.Babel.transform(code, { presets: ['react'] }).code; // 23/10/2026: sin 'env' (25 s a ~1 s); Chrome ya entiende el JavaScript moderno
+                            logMsg("Traducción completada. Montando aplicación...");
+                            eval(compiled);
+                        } catch (err) {
+                            showError("Babel no pudo traducir el código (posible error de sintaxis en el JSX).", err);
+                        }
+                    }, 500);
+                })
+                .catch(err => showError("No se pudo acceder al archivo local 900_magnificas_local.jsx.", err));
+        }
     </script>
 </body>
 </html>
